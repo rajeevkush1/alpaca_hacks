@@ -1,0 +1,1140 @@
+{
+  "decisions": [
+    {
+      "id": "cycle_1788195379232_dec",
+      "timestamp": "2026-08-31T16:56:28.592Z",
+      "symbol": "TSLA",
+      "strategy": "BULL_CALL_SPREAD",
+      "direction": "BULLISH",
+      "confidence": 0.72,
+      "thesis": "Dynamic AI scanner identified strong bullish momentum on TSLA ($366.15, +5.27%). Defined-risk Bull Call Debit Spread on TSLA. Buy $366 Call, Sell $371 Call.",
+      "entry_conditions": [
+        "Option Bid-Ask spread < $0.15",
+        "Portfolio exposure < 30%",
+        "Underlying price > $358.83"
+      ],
+      "exit_conditions": [
+        "Stop-Loss triggered at 50% option premium loss",
+        "Take-Profit triggered at 100% option premium gain",
+        "Time exit when DTE < 2 days"
+      ],
+      "risk_factors": [
+        "Market-wide volatility expansion or unexpected news reversal",
+        "Theta decay acceleration near expiration"
+      ],
+      "max_loss": 659,
+      "expected_reward": -159,
+      "position_size": 1,
+      "status": "EXECUTED",
+      "risk_status": "PASSED",
+      "market_regime": "HIGH_VOLATILITY"
+    },
+    {
+      "id": "cycle_1788195123489_dec",
+      "timestamp": "2026-08-31T16:52:04.171Z",
+      "symbol": "BAC",
+      "strategy": "BULL_CALL_SPREAD",
+      "direction": "NEUTRAL",
+      "confidence": 0.72,
+      "thesis": "Dynamic AI scanner identified strong neutral momentum on BAC ($44.8, 0%). Defined-risk Bull Call Debit Spread on BAC. Buy $45 Call, Sell $50 Call.",
+      "entry_conditions": [
+        "Option Bid-Ask spread < $0.15",
+        "Portfolio exposure < 30%",
+        "Underlying price > $43.90"
+      ],
+      "exit_conditions": [
+        "Stop-Loss triggered at 50% option premium loss",
+        "Take-Profit triggered at 100% option premium gain",
+        "Time exit when DTE < 2 days"
+      ],
+      "risk_factors": [
+        "Market-wide volatility expansion or unexpected news reversal",
+        "Theta decay acceleration near expiration"
+      ],
+      "max_loss": 90,
+      "expected_reward": 410,
+      "position_size": 1,
+      "status": "EXECUTED",
+      "risk_status": "PASSED",
+      "market_regime": "NORMAL_VOLATILITY"
+    },
+    {
+      "id": "cycle_1788195063400_dec",
+      "timestamp": "2026-08-31T16:51:06.156Z",
+      "symbol": "BAC",
+      "strategy": "BULL_CALL_SPREAD",
+      "direction": "NEUTRAL",
+      "confidence": 0.72,
+      "thesis": "Dynamic AI scanner identified strong neutral momentum on BAC ($44.8, 0%). Defined-risk Bull Call Debit Spread on BAC. Buy $45 Call, Sell $50 Call.",
+      "entry_conditions": [
+        "Option Bid-Ask spread < $0.15",
+        "Portfolio exposure < 30%",
+        "Underlying price > $43.90"
+      ],
+      "exit_conditions": [
+        "Stop-Loss triggered at 50% option premium loss",
+        "Take-Profit triggered at 100% option premium gain",
+        "Time exit when DTE < 2 days"
+      ],
+      "risk_factors": [
+        "Market-wide volatility expansion or unexpected news reversal",
+        "Theta decay acceleration near expiration"
+      ],
+      "max_loss": 90,
+      "expected_reward": 410,
+      "position_size": 1,
+      "status": "EXECUTED",
+      "risk_status": "PASSED",
+      "market_regime": "NORMAL_VOLATILITY"
+    },
+    {
+      "id": "cycle_1788194690532_dec",
+      "timestamp": "2026-08-31T16:44:51.938Z",
+      "symbol": "BAC",
+      "strategy": "BULL_CALL_SPREAD",
+      "direction": "NEUTRAL",
+      "confidence": 0.72,
+      "thesis": "Dynamic AI scanner identified strong neutral momentum on BAC ($44.8, 0%). Defined-risk Bull Call Debit Spread on BAC. Buy $45 Call, Sell $50 Call.",
+      "entry_conditions": [
+        "Option Bid-Ask spread < $0.15",
+        "Portfolio exposure < 30%",
+        "Underlying price > $43.90"
+      ],
+      "exit_conditions": [
+        "Stop-Loss triggered at 50% option premium loss",
+        "Take-Profit triggered at 100% option premium gain",
+        "Time exit when DTE < 2 days"
+      ],
+      "risk_factors": [
+        "Market-wide volatility expansion or unexpected news reversal",
+        "Theta decay acceleration near expiration"
+      ],
+      "max_loss": 90,
+      "expected_reward": 410,
+      "position_size": 1,
+      "status": "EXECUTED",
+      "risk_status": "PASSED",
+      "market_regime": "NORMAL_VOLATILITY"
+    }
+  ],
+  "trades": [
+    {
+      "id": "trade_1788195389439",
+      "decision_id": "TSLA",
+      "timestamp": "2026-08-31T16:56:29.439Z",
+      "symbol": "TSLA",
+      "strategy": "BULL_CALL_SPREAD",
+      "option_symbol": "TSLA260930C00366000",
+      "direction": "BULLISH",
+      "quantity": 1,
+      "entry_price": 6.59,
+      "unrealized_pnl": 0,
+      "realized_pnl": 0,
+      "status": "OPEN",
+      "entry_time": "2026-08-31T16:56:29.439Z"
+    },
+    {
+      "id": "trade_1788195124204",
+      "decision_id": "BAC",
+      "timestamp": "2026-08-31T16:52:04.204Z",
+      "symbol": "BAC",
+      "strategy": "BULL_CALL_SPREAD",
+      "option_symbol": "BAC260930C00045000",
+      "direction": "NEUTRAL",
+      "quantity": 1,
+      "entry_price": 0.9,
+      "unrealized_pnl": 0,
+      "realized_pnl": 0,
+      "status": "OPEN",
+      "entry_time": "2026-08-31T16:52:04.204Z"
+    },
+    {
+      "id": "trade_1788195067501",
+      "decision_id": "BAC",
+      "timestamp": "2026-08-31T16:51:07.501Z",
+      "symbol": "BAC",
+      "strategy": "BULL_CALL_SPREAD",
+      "option_symbol": "BAC260930C00045000",
+      "direction": "NEUTRAL",
+      "quantity": 1,
+      "entry_price": 0.9,
+      "unrealized_pnl": 0,
+      "realized_pnl": 0,
+      "status": "OPEN",
+      "entry_time": "2026-08-31T16:51:07.503Z"
+    },
+    {
+      "id": "65b1e1e4-8bd2-4fb4-8f4c-1dbb8a2258c5",
+      "decision_id": "MSFT",
+      "timestamp": "2026-08-31T16:50:18.655259746Z",
+      "symbol": "MSFT",
+      "strategy": "LONG_CALL",
+      "option_symbol": "MSFT",
+      "direction": "BULLISH",
+      "quantity": 1,
+      "entry_price": 2,
+      "unrealized_pnl": 0,
+      "realized_pnl": 0,
+      "status": "OPEN",
+      "entry_time": "2026-08-31T16:50:18.655259746Z"
+    },
+    {
+      "id": "251eb61b-ead4-431b-bf34-5f37a391c1d4",
+      "decision_id": "MSFT",
+      "timestamp": "2026-08-31T16:48:14.680666297Z",
+      "symbol": "MSFT",
+      "strategy": "LONG_CALL",
+      "option_symbol": "MSFT",
+      "direction": "BULLISH",
+      "quantity": 1,
+      "entry_price": 2,
+      "unrealized_pnl": 0,
+      "realized_pnl": 0,
+      "status": "OPEN",
+      "entry_time": "2026-08-31T16:48:14.680666297Z"
+    },
+    {
+      "id": "trade_1788194692029",
+      "decision_id": "BAC",
+      "timestamp": "2026-08-31T16:44:52.029Z",
+      "symbol": "BAC",
+      "strategy": "BULL_CALL_SPREAD",
+      "option_symbol": "BAC260930C00045000",
+      "direction": "NEUTRAL",
+      "quantity": 1,
+      "entry_price": 0.9,
+      "unrealized_pnl": 0,
+      "realized_pnl": 0,
+      "status": "OPEN",
+      "entry_time": "2026-08-31T16:44:52.029Z"
+    }
+  ],
+  "risk_logs": [
+    {
+      "id": "1788195388575_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-08-31T16:56:28.492Z",
+      "symbol": "TSLA",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1000,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1000"
+    },
+    {
+      "id": "1788195388567_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-08-31T16:56:28.492Z",
+      "symbol": "TSLA",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 1682.02,
+      "threshold": 30000.42,
+      "message": "Total exposure $1682.02 is within portfolio limit $30000.42"
+    },
+    {
+      "id": "1788195388556_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-08-31T16:56:28.492Z",
+      "symbol": "TSLA",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 1,
+      "threshold": 5,
+      "message": "Active positions count (1) is below maximum limit (5)"
+    },
+    {
+      "id": "1788195388542_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-08-31T16:56:28.492Z",
+      "symbol": "TSLA",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 659,
+      "threshold": 358900.182,
+      "message": "Trade max loss $659 is within available buying power $398777.98"
+    },
+    {
+      "id": "1788195388505_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-08-31T16:56:28.492Z",
+      "symbol": "TSLA",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 659,
+      "threshold": 5000.07,
+      "message": "Trade max loss $659 is within single-position risk limit $5000.07"
+    },
+    {
+      "id": "1788195388492_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-08-31T16:56:28.492Z",
+      "symbol": "TSLA",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": true,
+      "value": 0.72,
+      "threshold": 0.7,
+      "message": "Confidence 72% meets threshold 70%"
+    },
+    {
+      "id": "1788195124153_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-08-31T16:52:03.953Z",
+      "symbol": "BAC",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1000,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1000"
+    },
+    {
+      "id": "1788195124138_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-08-31T16:52:03.953Z",
+      "symbol": "BAC",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 90,
+      "threshold": 30000,
+      "message": "Total exposure $90.00 is within portfolio limit $30000.00"
+    },
+    {
+      "id": "1788195124063_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-08-31T16:52:03.953Z",
+      "symbol": "BAC",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 0,
+      "threshold": 5,
+      "message": "Active positions count (0) is below maximum limit (5)"
+    },
+    {
+      "id": "1788195124038_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-08-31T16:52:03.953Z",
+      "symbol": "BAC",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 90,
+      "threshold": 90000,
+      "message": "Trade max loss $90 is within available buying power $100000.00"
+    },
+    {
+      "id": "1788195124026_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-08-31T16:52:03.953Z",
+      "symbol": "BAC",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 90,
+      "threshold": 5000,
+      "message": "Trade max loss $90 is within single-position risk limit $5000.00"
+    },
+    {
+      "id": "1788195123953_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-08-31T16:52:03.953Z",
+      "symbol": "BAC",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": true,
+      "value": 0.72,
+      "threshold": 0.7,
+      "message": "Confidence 72% meets threshold 70%"
+    },
+    {
+      "id": "1788195065786_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-08-31T16:51:04.317Z",
+      "symbol": "BAC",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1000,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1000"
+    },
+    {
+      "id": "1788195065416_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-08-31T16:51:04.317Z",
+      "symbol": "BAC",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 90,
+      "threshold": 30000,
+      "message": "Total exposure $90.00 is within portfolio limit $30000.00"
+    },
+    {
+      "id": "1788195064782_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-08-31T16:51:04.317Z",
+      "symbol": "BAC",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 0,
+      "threshold": 5,
+      "message": "Active positions count (0) is below maximum limit (5)"
+    },
+    {
+      "id": "1788195064586_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-08-31T16:51:04.317Z",
+      "symbol": "BAC",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 90,
+      "threshold": 90000,
+      "message": "Trade max loss $90 is within available buying power $100000.00"
+    },
+    {
+      "id": "1788195064538_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-08-31T16:51:04.317Z",
+      "symbol": "BAC",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 90,
+      "threshold": 5000,
+      "message": "Trade max loss $90 is within single-position risk limit $5000.00"
+    },
+    {
+      "id": "1788195064318_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-08-31T16:51:04.317Z",
+      "symbol": "BAC",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": true,
+      "value": 0.72,
+      "threshold": 0.7,
+      "message": "Confidence 72% meets threshold 70%"
+    },
+    {
+      "id": "1788195019408_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-08-31T16:50:19.284Z",
+      "symbol": "AAPL",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1000,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1000"
+    },
+    {
+      "id": "1788195019392_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-08-31T16:50:19.284Z",
+      "symbol": "AAPL",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 15000,
+      "threshold": 30000,
+      "message": "Total exposure $15000.00 is within portfolio limit $30000.00"
+    },
+    {
+      "id": "1788195019384_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-08-31T16:50:19.284Z",
+      "symbol": "AAPL",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 0,
+      "threshold": 5,
+      "message": "Active positions count (0) is below maximum limit (5)"
+    },
+    {
+      "id": "1788195019340_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-08-31T16:50:19.284Z",
+      "symbol": "AAPL",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 15000,
+      "threshold": 90000,
+      "message": "Trade max loss $15000 is within available buying power $100000.00"
+    },
+    {
+      "id": "1788195019290_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-08-31T16:50:19.284Z",
+      "symbol": "AAPL",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": false,
+      "value": 15000,
+      "threshold": 5000,
+      "message": "Trade max loss $15000 exceeds maximum allowed risk limit $5000.00"
+    },
+    {
+      "id": "1788195019284_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-08-31T16:50:19.284Z",
+      "symbol": "AAPL",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": true,
+      "value": 0.85,
+      "threshold": 0.7,
+      "message": "Confidence 85% meets threshold 70%"
+    },
+    {
+      "id": "1788195019265_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-08-31T16:50:19.217Z",
+      "symbol": "AAPL",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1000,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1000"
+    },
+    {
+      "id": "1788195019255_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-08-31T16:50:19.217Z",
+      "symbol": "AAPL",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 250,
+      "threshold": 30000,
+      "message": "Total exposure $250.00 is within portfolio limit $30000.00"
+    },
+    {
+      "id": "1788195019246_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-08-31T16:50:19.217Z",
+      "symbol": "AAPL",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 0,
+      "threshold": 5,
+      "message": "Active positions count (0) is below maximum limit (5)"
+    },
+    {
+      "id": "1788195019237_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-08-31T16:50:19.217Z",
+      "symbol": "AAPL",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 250,
+      "threshold": 90000,
+      "message": "Trade max loss $250 is within available buying power $100000.00"
+    },
+    {
+      "id": "1788195019225_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-08-31T16:50:19.217Z",
+      "symbol": "AAPL",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 250,
+      "threshold": 5000,
+      "message": "Trade max loss $250 is within single-position risk limit $5000.00"
+    },
+    {
+      "id": "1788195019217_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-08-31T16:50:19.217Z",
+      "symbol": "AAPL",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": false,
+      "value": 0.5,
+      "threshold": 0.7,
+      "message": "Confidence 50% below minimum required 70%"
+    },
+    {
+      "id": "1788195019202_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-08-31T16:50:19.152Z",
+      "symbol": "AAPL",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1000,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1000"
+    },
+    {
+      "id": "1788195019191_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-08-31T16:50:19.152Z",
+      "symbol": "AAPL",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 250,
+      "threshold": 30000,
+      "message": "Total exposure $250.00 is within portfolio limit $30000.00"
+    },
+    {
+      "id": "1788195019180_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-08-31T16:50:19.152Z",
+      "symbol": "AAPL",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 0,
+      "threshold": 5,
+      "message": "Active positions count (0) is below maximum limit (5)"
+    },
+    {
+      "id": "1788195019170_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-08-31T16:50:19.152Z",
+      "symbol": "AAPL",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 250,
+      "threshold": 90000,
+      "message": "Trade max loss $250 is within available buying power $100000.00"
+    },
+    {
+      "id": "1788195019159_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-08-31T16:50:19.152Z",
+      "symbol": "AAPL",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 250,
+      "threshold": 5000,
+      "message": "Trade max loss $250 is within single-position risk limit $5000.00"
+    },
+    {
+      "id": "1788195019152_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-08-31T16:50:19.152Z",
+      "symbol": "AAPL",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": true,
+      "value": 0.85,
+      "threshold": 0.7,
+      "message": "Confidence 85% meets threshold 70%"
+    },
+    {
+      "id": "1788194894098_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-08-31T16:48:13.978Z",
+      "symbol": "AAPL",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1000,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1000"
+    },
+    {
+      "id": "1788194894081_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-08-31T16:48:13.978Z",
+      "symbol": "AAPL",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 15000,
+      "threshold": 30000,
+      "message": "Total exposure $15000.00 is within portfolio limit $30000.00"
+    },
+    {
+      "id": "1788194894033_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-08-31T16:48:13.978Z",
+      "symbol": "AAPL",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 0,
+      "threshold": 5,
+      "message": "Active positions count (0) is below maximum limit (5)"
+    },
+    {
+      "id": "1788194894024_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-08-31T16:48:13.978Z",
+      "symbol": "AAPL",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 15000,
+      "threshold": 90000,
+      "message": "Trade max loss $15000 is within available buying power $100000.00"
+    },
+    {
+      "id": "1788194893985_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-08-31T16:48:13.978Z",
+      "symbol": "AAPL",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": false,
+      "value": 15000,
+      "threshold": 5000,
+      "message": "Trade max loss $15000 exceeds maximum allowed risk limit $5000.00"
+    },
+    {
+      "id": "1788194893978_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-08-31T16:48:13.978Z",
+      "symbol": "AAPL",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": true,
+      "value": 0.85,
+      "threshold": 0.7,
+      "message": "Confidence 85% meets threshold 70%"
+    },
+    {
+      "id": "1788194893963_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-08-31T16:48:13.866Z",
+      "symbol": "AAPL",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1000,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1000"
+    },
+    {
+      "id": "1788194893957_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-08-31T16:48:13.866Z",
+      "symbol": "AAPL",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 250,
+      "threshold": 30000,
+      "message": "Total exposure $250.00 is within portfolio limit $30000.00"
+    },
+    {
+      "id": "1788194893945_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-08-31T16:48:13.866Z",
+      "symbol": "AAPL",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 0,
+      "threshold": 5,
+      "message": "Active positions count (0) is below maximum limit (5)"
+    },
+    {
+      "id": "1788194893931_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-08-31T16:48:13.866Z",
+      "symbol": "AAPL",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 250,
+      "threshold": 90000,
+      "message": "Trade max loss $250 is within available buying power $100000.00"
+    },
+    {
+      "id": "1788194893920_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-08-31T16:48:13.866Z",
+      "symbol": "AAPL",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 250,
+      "threshold": 5000,
+      "message": "Trade max loss $250 is within single-position risk limit $5000.00"
+    },
+    {
+      "id": "1788194893866_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-08-31T16:48:13.866Z",
+      "symbol": "AAPL",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": false,
+      "value": 0.5,
+      "threshold": 0.7,
+      "message": "Confidence 50% below minimum required 70%"
+    },
+    {
+      "id": "1788194893854_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-08-31T16:48:13.805Z",
+      "symbol": "AAPL",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1000,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1000"
+    },
+    {
+      "id": "1788194893848_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-08-31T16:48:13.805Z",
+      "symbol": "AAPL",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 250,
+      "threshold": 30000,
+      "message": "Total exposure $250.00 is within portfolio limit $30000.00"
+    },
+    {
+      "id": "1788194893838_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-08-31T16:48:13.805Z",
+      "symbol": "AAPL",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 0,
+      "threshold": 5,
+      "message": "Active positions count (0) is below maximum limit (5)"
+    },
+    {
+      "id": "1788194893829_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-08-31T16:48:13.805Z",
+      "symbol": "AAPL",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 250,
+      "threshold": 90000,
+      "message": "Trade max loss $250 is within available buying power $100000.00"
+    },
+    {
+      "id": "1788194893816_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-08-31T16:48:13.805Z",
+      "symbol": "AAPL",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 250,
+      "threshold": 5000,
+      "message": "Trade max loss $250 is within single-position risk limit $5000.00"
+    },
+    {
+      "id": "1788194893805_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-08-31T16:48:13.805Z",
+      "symbol": "AAPL",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": true,
+      "value": 0.85,
+      "threshold": 0.7,
+      "message": "Confidence 85% meets threshold 70%"
+    },
+    {
+      "id": "1788194691863_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-08-31T16:44:51.520Z",
+      "symbol": "BAC",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1000,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1000"
+    },
+    {
+      "id": "1788194691737_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-08-31T16:44:51.520Z",
+      "symbol": "BAC",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 90,
+      "threshold": 30000,
+      "message": "Total exposure $90.00 is within portfolio limit $30000.00"
+    },
+    {
+      "id": "1788194691691_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-08-31T16:44:51.520Z",
+      "symbol": "BAC",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 0,
+      "threshold": 5,
+      "message": "Active positions count (0) is below maximum limit (5)"
+    },
+    {
+      "id": "1788194691601_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-08-31T16:44:51.520Z",
+      "symbol": "BAC",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 90,
+      "threshold": 90000,
+      "message": "Trade max loss $90 is within available buying power $100000.00"
+    },
+    {
+      "id": "1788194691537_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-08-31T16:44:51.520Z",
+      "symbol": "BAC",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 90,
+      "threshold": 5000,
+      "message": "Trade max loss $90 is within single-position risk limit $5000.00"
+    },
+    {
+      "id": "1788194691520_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-08-31T16:44:51.520Z",
+      "symbol": "BAC",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": true,
+      "value": 0.72,
+      "threshold": 0.7,
+      "message": "Confidence 72% meets threshold 70%"
+    },
+    {
+      "id": "1788194690228_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-08-31T16:44:50.030Z",
+      "symbol": "AAPL",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1000,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1000"
+    },
+    {
+      "id": "1788194690202_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-08-31T16:44:50.030Z",
+      "symbol": "AAPL",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 15000,
+      "threshold": 30000,
+      "message": "Total exposure $15000.00 is within portfolio limit $30000.00"
+    },
+    {
+      "id": "1788194690166_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-08-31T16:44:50.030Z",
+      "symbol": "AAPL",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 0,
+      "threshold": 5,
+      "message": "Active positions count (0) is below maximum limit (5)"
+    },
+    {
+      "id": "1788194690146_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-08-31T16:44:50.030Z",
+      "symbol": "AAPL",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 15000,
+      "threshold": 90000,
+      "message": "Trade max loss $15000 is within available buying power $100000.00"
+    },
+    {
+      "id": "1788194690063_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-08-31T16:44:50.030Z",
+      "symbol": "AAPL",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": false,
+      "value": 15000,
+      "threshold": 5000,
+      "message": "Trade max loss $15000 exceeds maximum allowed risk limit $5000.00"
+    },
+    {
+      "id": "1788194690030_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-08-31T16:44:50.030Z",
+      "symbol": "AAPL",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": true,
+      "value": 0.85,
+      "threshold": 0.7,
+      "message": "Confidence 85% meets threshold 70%"
+    },
+    {
+      "id": "1788194689995_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-08-31T16:44:49.924Z",
+      "symbol": "AAPL",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1000,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1000"
+    },
+    {
+      "id": "1788194689983_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-08-31T16:44:49.924Z",
+      "symbol": "AAPL",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 250,
+      "threshold": 30000,
+      "message": "Total exposure $250.00 is within portfolio limit $30000.00"
+    },
+    {
+      "id": "1788194689969_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-08-31T16:44:49.924Z",
+      "symbol": "AAPL",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 0,
+      "threshold": 5,
+      "message": "Active positions count (0) is below maximum limit (5)"
+    },
+    {
+      "id": "1788194689955_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-08-31T16:44:49.924Z",
+      "symbol": "AAPL",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 250,
+      "threshold": 90000,
+      "message": "Trade max loss $250 is within available buying power $100000.00"
+    },
+    {
+      "id": "1788194689942_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-08-31T16:44:49.924Z",
+      "symbol": "AAPL",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 250,
+      "threshold": 5000,
+      "message": "Trade max loss $250 is within single-position risk limit $5000.00"
+    },
+    {
+      "id": "1788194689924_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-08-31T16:44:49.924Z",
+      "symbol": "AAPL",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": false,
+      "value": 0.5,
+      "threshold": 0.7,
+      "message": "Confidence 50% below minimum required 70%"
+    },
+    {
+      "id": "1788194689871_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-08-31T16:44:49.528Z",
+      "symbol": "AAPL",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1000,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1000"
+    },
+    {
+      "id": "1788194689706_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-08-31T16:44:49.528Z",
+      "symbol": "AAPL",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 250,
+      "threshold": 30000,
+      "message": "Total exposure $250.00 is within portfolio limit $30000.00"
+    },
+    {
+      "id": "1788194689685_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-08-31T16:44:49.528Z",
+      "symbol": "AAPL",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 0,
+      "threshold": 5,
+      "message": "Active positions count (0) is below maximum limit (5)"
+    },
+    {
+      "id": "1788194689642_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-08-31T16:44:49.528Z",
+      "symbol": "AAPL",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 250,
+      "threshold": 90000,
+      "message": "Trade max loss $250 is within available buying power $100000.00"
+    },
+    {
+      "id": "1788194689558_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-08-31T16:44:49.528Z",
+      "symbol": "AAPL",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 250,
+      "threshold": 5000,
+      "message": "Trade max loss $250 is within single-position risk limit $5000.00"
+    }
+  ],
+  "audit_trail": [
+    {
+      "id": "cycle_1788195379232_exec",
+      "timestamp": "2026-08-31T16:56:29.446Z",
+      "cycle_id": "cycle_1788195379232",
+      "stage": "ORDER_EXECUTION",
+      "detail": "Execution Result: FILLED -> Order submitted in paper execution mode (TSLA BULL_CALL_SPREAD)"
+    },
+    {
+      "id": "cycle_1788195379232_risk",
+      "timestamp": "2026-08-31T16:56:28.612Z",
+      "cycle_id": "cycle_1788195379232",
+      "stage": "RISK_GATE_CHECK",
+      "detail": "Risk Engine Result: PASSED"
+    },
+    {
+      "id": "cycle_1788195379232_ai",
+      "timestamp": "2026-08-31T16:56:28.464Z",
+      "cycle_id": "cycle_1788195379232",
+      "stage": "AI_DECISION",
+      "detail": "AI generated proposal: BULL_CALL_SPREAD on TSLA with 72% confidence"
+    },
+    {
+      "id": "cycle_1788195379232_scan",
+      "timestamp": "2026-08-31T16:56:27.415Z",
+      "cycle_id": "cycle_1788195379232",
+      "stage": "OPPORTUNITY_DISCOVERED",
+      "detail": "Discovered top candidate TSLA (Score: 0.57, Direction: BULLISH)"
+    },
+    {
+      "id": "cycle_1788195379232_start",
+      "timestamp": "2026-08-31T16:56:19.234Z",
+      "cycle_id": "cycle_1788195379232",
+      "stage": "CYCLE_START",
+      "detail": "Autonomous cycle #1 initiated"
+    },
+    {
+      "id": "cycle_1788195123489_exec",
+      "timestamp": "2026-08-31T16:52:04.218Z",
+      "cycle_id": "cycle_1788195123489",
+      "stage": "ORDER_EXECUTION",
+      "detail": "Execution Result: FILLED -> Order submitted in paper execution mode (BAC BULL_CALL_SPREAD)"
+    },
+    {
+      "id": "cycle_1788195123489_risk",
+      "timestamp": "2026-08-31T16:52:04.184Z",
+      "cycle_id": "cycle_1788195123489",
+      "stage": "RISK_GATE_CHECK",
+      "detail": "Risk Engine Result: PASSED"
+    },
+    {
+      "id": "cycle_1788195123489_ai",
+      "timestamp": "2026-08-31T16:52:03.929Z",
+      "cycle_id": "cycle_1788195123489",
+      "stage": "AI_DECISION",
+      "detail": "AI generated proposal: BULL_CALL_SPREAD on BAC with 72% confidence"
+    },
+    {
+      "id": "cycle_1788195123489_scan",
+      "timestamp": "2026-08-31T16:52:03.775Z",
+      "cycle_id": "cycle_1788195123489",
+      "stage": "OPPORTUNITY_DISCOVERED",
+      "detail": "Discovered top candidate BAC (Score: 0.48, Direction: NEUTRAL)"
+    },
+    {
+      "id": "cycle_1788195123489_start",
+      "timestamp": "2026-08-31T16:52:03.492Z",
+      "cycle_id": "cycle_1788195123489",
+      "stage": "CYCLE_START",
+      "detail": "Autonomous cycle #2 initiated"
+    },
+    {
+      "id": "cycle_1788195063400_exec",
+      "timestamp": "2026-08-31T16:51:07.556Z",
+      "cycle_id": "cycle_1788195063400",
+      "stage": "ORDER_EXECUTION",
+      "detail": "Execution Result: FILLED -> Order submitted in paper execution mode (BAC BULL_CALL_SPREAD)"
+    },
+    {
+      "id": "cycle_1788195063400_risk",
+      "timestamp": "2026-08-31T16:51:06.501Z",
+      "cycle_id": "cycle_1788195063400",
+      "stage": "RISK_GATE_CHECK",
+      "detail": "Risk Engine Result: PASSED"
+    },
+    {
+      "id": "cycle_1788195063400_ai",
+      "timestamp": "2026-08-31T16:51:04.168Z",
+      "cycle_id": "cycle_1788195063400",
+      "stage": "AI_DECISION",
+      "detail": "AI generated proposal: BULL_CALL_SPREAD on BAC with 72% confidence"
+    },
+    {
+      "id": "cycle_1788195063400_scan",
+      "timestamp": "2026-08-31T16:51:03.726Z",
+      "cycle_id": "cycle_1788195063400",
+      "stage": "OPPORTUNITY_DISCOVERED",
+      "detail": "Discovered top candidate BAC (Score: 0.48, Direction: NEUTRAL)"
+    },
+    {
+      "id": "cycle_1788195063400_start",
+      "timestamp": "2026-08-31T16:51:03.400Z",
+      "cycle_id": "cycle_1788195063400",
+      "stage": "CYCLE_START",
+      "detail": "Autonomous cycle #1 initiated"
+    },
+    {
+      "id": "cycle_1788195019583_start",
+      "timestamp": "2026-08-31T16:50:19.583Z",
+      "cycle_id": "cycle_1788195019583",
+      "stage": "CYCLE_START",
+      "detail": "Autonomous cycle #1 initiated"
+    },
+    {
+      "id": "cycle_1788194894342_start",
+      "timestamp": "2026-08-31T16:48:14.342Z",
+      "cycle_id": "cycle_1788194894342",
+      "stage": "CYCLE_START",
+      "detail": "Autonomous cycle #1 initiated"
+    },
+    {
+      "id": "cycle_1788194690532_exec",
+      "timestamp": "2026-08-31T16:44:52.091Z",
+      "cycle_id": "cycle_1788194690532",
+      "stage": "ORDER_EXECUTION",
+      "detail": "Execution Result: FILLED -> Order submitted in paper execution mode (BAC BULL_CALL_SPREAD)"
+    },
+    {
+      "id": "cycle_1788194690532_risk",
+      "timestamp": "2026-08-31T16:44:51.968Z",
+      "cycle_id": "cycle_1788194690532",
+      "stage": "RISK_GATE_CHECK",
+      "detail": "Risk Engine Result: PASSED"
+    },
+    {
+      "id": "cycle_1788194690532_ai",
+      "timestamp": "2026-08-31T16:44:51.284Z",
+      "cycle_id": "cycle_1788194690532",
+      "stage": "AI_DECISION",
+      "detail": "AI generated proposal: BULL_CALL_SPREAD on BAC with 72% confidence"
+    },
+    {
+      "id": "cycle_1788194690532_scan",
+      "timestamp": "2026-08-31T16:44:51.151Z",
+      "cycle_id": "cycle_1788194690532",
+      "stage": "OPPORTUNITY_DISCOVERED",
+      "detail": "Discovered top candidate BAC (Score: 0.48, Direction: NEUTRAL)"
+    },
+    {
+      "id": "cycle_1788194690532_start",
+      "timestamp": "2026-08-31T16:44:50.532Z",
+      "cycle_id": "cycle_1788194690532",
+      "stage": "CYCLE_START",
+      "detail": "Autonomous cycle #1 initiated"
+    }
+  ]
+}
