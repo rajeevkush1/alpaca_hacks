@@ -41,21 +41,21 @@ The **Autonomous Alpaca Options Alpha Agent** is designed as a decoupled, multi-
 ### 🏗️ Architecture Component Diagram
 
 ```mermaid
-graph TD
-    UI["React Frontend Dashboard<br/>(Vite + SSE Stream + Recharts)"] -->|HTTP / SSE API| Server["Express Backend Server<br/>(Node.js + TypeScript)"]
+flowchart TD
+    UI["React Frontend Dashboard"] -->|HTTP & SSE API| Server["Express Backend Server"]
     
     subgraph Agent Core Architecture
         Server --> Loop["Agent Autonomous Loop"]
         Loop --> Scanner["Market Opportunity Scanner"]
         Loop --> Strategy["Options Strategy Engine"]
-        Loop --> Risk["Risk Engine & Gatekeeper"]
-        Loop --> Memory["Memory & Audit Trail Store"]
+        Loop --> Risk["Risk Gatekeeper Engine"]
+        Loop --> Memory["Memory & Audit Store"]
     end
 
     subgraph External Integrations
         Strategy -->|LLM Prompts| AI["OpenRouter AI Engine"]
-        Loop -->|Trading REST API| Alpaca["Alpaca Paper API & Market Data"]
-        Server -.->|Protocol Tools| MCP["Alpaca MCP Server Bridge"]
+        Loop -->|Trading API| Alpaca["Alpaca Paper Trading API"]
+        Server -.->|Protocol Bridge| MCP["Alpaca MCP Server"]
     end
 ```
 
@@ -64,30 +64,27 @@ graph TD
 ```mermaid
 sequenceDiagram
     participant Loop as Agent Loop
-    participant Alpaca as Alpaca Market API
-    participant Scanner as Market Scanner
-    participant LLM as OpenRouter AI Engine
+    participant Alpaca as Alpaca Paper API
+    participant Scanner as Opportunity Scanner
+    participant LLM as OpenRouter AI
     participant Risk as Risk Gatekeeper
     participant Exec as Order Executor
     participant DB as Audit Database
 
-    Loop->>Alpaca: 1. Fetch Account & Positions
-    Alpaca-->>Loop: Account Equity & Buying Power
-    Loop->>Scanner: 2. Scan Stocks & Option Chains
-    Scanner->>Alpaca: Get Volatility, RSI & Option Greeks
+    Loop->>Alpaca: 1. Fetch Account Equity & Buying Power
+    Alpaca-->>Loop: Return Account Details
+    Loop->>Scanner: 2. Scan Tickers & Options Chains
+    Scanner->>Alpaca: Request Volatility & RSI Snapshots
     Alpaca-->>Scanner: Return Market Snapshots
-    Scanner-->>Loop: Filtered Market Opportunities
-    Loop->>LLM: 3. Request Market Thesis & Strategy Selection
-    LLM-->>Loop: Structured Strategy JSON & Confidence
-    Loop->>Risk: 4. Check 6-Gate Risk Rules
-    alt Risk Gate Fails
-        Risk-->>DB: Log Risk Rejection Event
-    else All Risk Gates Pass
-        Risk-->>Exec: Approve Execution Proposal
-        Exec->>Alpaca: 5. Submit Multi-Leg Order
-        Alpaca-->>Exec: Return Order Confirmation ID
-        Exec->>DB: 6. Record Trade & Audit Log
-    end
+    Scanner-->>Loop: Return Opportunity Candidates
+    Loop->>LLM: 3. Request Thesis & Strategy JSON
+    LLM-->>Loop: Return Strategy & Confidence Score
+    Loop->>Risk: 4. Evaluate 6-Gate Risk Engine
+    Risk->>DB: Log Risk Check Results
+    Risk->>Exec: Approve Execution Proposal
+    Exec->>Alpaca: 5. Submit Options Order
+    Alpaca-->>Exec: Return Order Confirmation ID
+    Exec->>DB: 6. Record Trade & Audit Journal
 ```
 
 ### 🧠 7-Step Autonomous Trading Engine
