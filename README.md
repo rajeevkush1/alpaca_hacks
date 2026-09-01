@@ -63,7 +63,7 @@ flowchart TD
 
 ```mermaid
 sequenceDiagram
-    participant Loop as Agent Loop
+    participant agent as Agent Loop
     participant Alpaca as Alpaca Paper API
     participant Scanner as Opportunity Scanner
     participant LLM as OpenRouter AI
@@ -71,15 +71,15 @@ sequenceDiagram
     participant Exec as Order Executor
     participant DB as Audit Database
 
-    Loop->>Alpaca: 1. Fetch Account Equity and Buying Power
-    Alpaca-->>Loop: Return Account Details
-    Loop->>Scanner: 2. Scan Tickers and Options Chains
+    agent->>Alpaca: 1. Fetch Account Equity and Buying Power
+    Alpaca-->>agent: Return Account Details
+    agent->>Scanner: 2. Scan Tickers and Options Chains
     Scanner->>Alpaca: Request Volatility and RSI Snapshots
     Alpaca-->>Scanner: Return Market Snapshots
-    Scanner-->>Loop: Return Opportunity Candidates
-    Loop->>LLM: 3. Request Thesis and Strategy JSON
-    LLM-->>Loop: Return Strategy and Confidence Score
-    Loop->>Risk: 4. Evaluate 6-Gate Risk Engine
+    Scanner-->>agent: Return Opportunity Candidates
+    agent->>LLM: 3. Request Thesis and Strategy JSON
+    LLM-->>agent: Return Strategy and Confidence Score
+    agent->>Risk: 4. Evaluate 6-Gate Risk Engine
     Risk->>DB: Log Risk Check Results
     Risk->>Exec: Approve Execution Proposal
     Exec->>Alpaca: 5. Submit Options Order
