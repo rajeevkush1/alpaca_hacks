@@ -19,7 +19,7 @@ export class AlpacaMcpWrapper {
   public async checkAvailability(): Promise<{ cliAvailable: boolean; mcpAvailable: boolean }> {
     let cliAvailable = false;
     try {
-      const { stdout } = await execAsync('alpaca --version');
+      const { stdout } = await execAsync('alpaca --version', { timeout: 2000 });
       if (stdout && stdout.trim().length > 0) {
         cliAvailable = true;
       }

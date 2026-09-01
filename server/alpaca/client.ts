@@ -166,6 +166,7 @@ export class AlpacaClient {
     try {
       const res = await fetch(url, {
         ...options,
+        signal: options.signal || AbortSignal.timeout(4000),
         headers: {
           ...this.getHeaders(),
           ...options.headers,
@@ -193,6 +194,7 @@ export class AlpacaClient {
     try {
       const res = await fetch(url, {
         ...options,
+        signal: options.signal || AbortSignal.timeout(4000),
         headers: {
           ...this.getHeaders(),
           ...options.headers,
