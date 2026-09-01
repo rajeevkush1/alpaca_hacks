@@ -8,9 +8,8 @@ import { LivePositions } from './components/LivePositions.js';
 import { RiskMonitor } from './components/RiskMonitor.js';
 import { TradeJournal } from './components/TradeJournal.js';
 import { PerformanceAnalyticsView } from './components/PerformanceAnalytics.js';
-import { HackathonDoc } from './components/HackathonDoc.js';
 import { ConfigModal } from './components/ConfigModal.js';
-import { LayoutDashboard, Search, Briefcase, ShieldAlert, BookOpen, BarChart2, Award } from 'lucide-react';
+import { LayoutDashboard, Search, Briefcase, ShieldAlert, BookOpen, BarChart2 } from 'lucide-react';
 
 export function App() {
   const {
@@ -27,7 +26,7 @@ export function App() {
     refreshData,
   } = useAgentState();
 
-  const [activeTab, setActiveTab] = useState<'dashboard' | 'scanner' | 'positions' | 'risk' | 'journal' | 'analytics' | 'doc'>('dashboard');
+  const [activeTab, setActiveTab] = useState<'dashboard' | 'scanner' | 'positions' | 'risk' | 'journal' | 'analytics'>('dashboard');
   const [isConfigOpen, setIsConfigOpen] = useState(false);
 
   const tabs = [
@@ -37,7 +36,6 @@ export function App() {
     { id: 'risk', label: 'Risk Monitor', icon: ShieldAlert },
     { id: 'journal', label: `Journal (${decisions.length})`, icon: BookOpen },
     { id: 'analytics', label: 'Analytics', icon: BarChart2 },
-    { id: 'doc', label: 'Hackathon Write-up', icon: Award },
   ];
 
   return (
@@ -113,10 +111,6 @@ export function App() {
 
       {activeTab === 'analytics' && (
         <PerformanceAnalyticsView analytics={analytics} />
-      )}
-
-      {activeTab === 'doc' && (
-        <HackathonDoc analytics={analytics} mcpStatus={statusInfo.mcpStatus} />
       )}
 
       {/* Config Slide-Over Modal */}
