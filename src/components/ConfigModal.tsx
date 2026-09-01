@@ -1,12 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Sliders, Save, X } from 'lucide-react';
-
-interface ConfigModalProps {
-  isOpen: boolean;
-  onClose: () => void;
-}
-
-import React, { useState, useEffect } from 'react';
 import { Sliders, Save, X, Key, ShieldCheck } from 'lucide-react';
 
 interface ConfigModalProps {
@@ -27,6 +19,9 @@ export const ConfigModal: React.FC<ConfigModalProps> = ({ isOpen, onClose }) => 
     minConfidence: 0.70,
     maxOpenPositions: 5,
     scanIntervalMs: 60000,
+    hasAlpacaApiKey: false,
+    hasAlpacaSecretKey: false,
+    hasOpenRouterApiKey: false,
   });
   const [saved, setSaved] = useState(false);
 
@@ -35,7 +30,16 @@ export const ConfigModal: React.FC<ConfigModalProps> = ({ isOpen, onClose }) => 
       fetch('/api/config')
         .then((res) => res.json())
         .then((data) => {
-          if (data) setConfig((prev) => ({ ...prev, ...data }));
+          if (data) {
+            setConfig((prev) => ({
+              ...prev,
+              ...data,
+              // Keep keys masked in state initially so user can type a new key or leave untouched
+              alpacaApiKey: data.alpacaApiKey || '',
+              alpacaSecretKey: data.alpacaSecretKey || '',
+              openRouterApiKey: data.openRouterApiKey || '',
+            }));
+          }
         });
     }
   }, [isOpen]);
@@ -57,14 +61,14 @@ export const ConfigModal: React.FC<ConfigModalProps> = ({ isOpen, onClose }) => 
   };
 
   return (
-    <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, background: 'rgba(0,0,0,0.8)', backdropFilter: 'blur(8px)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 100, padding: '20px' }}>
+    <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, background: 'rgba(0,0,0,0.85)', backdropFilter: 'blur(8px)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 100, padding: '20px' }}>
       <div className="glass-panel" style={{ width: '100%', maxWidth: '550px', maxHeight: '90vh', overflowY: 'auto', padding: '24px', borderRadius: '16px' }}>
         
         {/* Header */}
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px', borderBottom: '1px solid var(--border-card)', paddingBottom: '12px' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
             <Sliders className="text-cyan" size={20} />
-            <h3 style={{ fontSize: '1.1rem', fontWeight: 700 }}>AGENT & CREDENTIAL CONFIGURATION</h3>
+            <h3 style={{ fontSize: '1.1rem', fontWeight: 700 }}>PRIVATE AGENT CONFIGURATION</h3>
           </div>
           <button className="btn btn-secondary" style={{ padding: '4px 10px' }} onClick={onClose}>
             <X size={16} />
@@ -73,22 +77,22 @@ export const ConfigModal: React.FC<ConfigModalProps> = ({ isOpen, onClose }) => 
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', fontSize: '0.85rem' }}>
           
-          {/* Section: Alpaca Paper Trading Credentials */}
+          {/* Section: Private Alpaca Credentials */}
           <div style={{ background: 'rgba(0, 240, 255, 0.05)', border: '1px solid rgba(0, 240, 255, 0.2)', padding: '16px', borderRadius: '12px' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '12px', color: 'var(--accent-cyan)', fontWeight: 600 }}>
               <Key size={16} />
-              🦙 Alpaca API Credentials (Paper Trading)
+              🦙 Private Alpaca API Credentials (Paper Trading)
             </div>
             
             <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
               <div>
                 <label style={{ display: 'block', color: 'var(--text-muted)', marginBottom: '6px' }}>
-                  Alpaca API Key ID
+                  Alpaca API Key ID {config.hasAlpacaApiKey && <span style={{ color: 'var(--accent-cyan)', fontSize: '0.75rem' }}>(Configured)</span>}
                 </label>
                 <input
-                  type="text"
-                  placeholder="PKFE..."
-                  value={config.alpacaApiKey || ''}
+                  type="password"
+                  placeholder={config.hasAlpacaApiKey ? '•••••••••••• (Configured - Type to change)' : 'Enter API Key ID (PKFE...)'}
+                  value={config.alpacaApiKey}
                   onChange={(e) => setConfig({ ...config, alpacaApiKey: e.target.value })}
                   style={{ width: '100%', padding: '10px', background: 'rgba(0,0,0,0.5)', border: '1px solid var(--border-card)', borderRadius: '8px', color: '#fff', fontFamily: 'monospace' }}
                 />
@@ -96,12 +100,12 @@ export const ConfigModal: React.FC<ConfigModalProps> = ({ isOpen, onClose }) => 
 
               <div>
                 <label style={{ display: 'block', color: 'var(--text-muted)', marginBottom: '6px' }}>
-                  Alpaca Secret Key
+                  Alpaca Secret Key {config.hasAlpacaSecretKey && <span style={{ color: 'var(--accent-cyan)', fontSize: '0.75rem' }}>(Configured)</span>}
                 </label>
                 <input
                   type="password"
-                  placeholder="Personal Secret Key"
-                  value={config.alpacaSecretKey || ''}
+                  placeholder={config.hasAlpacaSecretKey ? '•••••••••••• (Configured - Type to change)' : 'Enter Secret Key'}
+                  value={config.alpacaSecretKey}
                   onChange={(e) => setConfig({ ...config, alpacaSecretKey: e.target.value })}
                   style={{ width: '100%', padding: '10px', background: 'rgba(0,0,0,0.5)', border: '1px solid var(--border-card)', borderRadius: '8px', color: '#fff', fontFamily: 'monospace' }}
                 />
@@ -132,12 +136,12 @@ export const ConfigModal: React.FC<ConfigModalProps> = ({ isOpen, onClose }) => 
             <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
               <div>
                 <label style={{ display: 'block', color: 'var(--text-muted)', marginBottom: '6px' }}>
-                  OpenRouter API Key (Optional for live reasoning)
+                  OpenRouter API Key {config.hasOpenRouterApiKey && <span style={{ color: '#818cf8', fontSize: '0.75rem' }}>(Configured)</span>}
                 </label>
                 <input
                   type="password"
-                  placeholder="sk-or-v1-..."
-                  value={config.openRouterApiKey || ''}
+                  placeholder={config.hasOpenRouterApiKey ? '•••••••••••• (Configured - Type to change)' : 'sk-or-v1-...'}
+                  value={config.openRouterApiKey}
                   onChange={(e) => setConfig({ ...config, openRouterApiKey: e.target.value })}
                   style={{ width: '100%', padding: '10px', background: 'rgba(0,0,0,0.5)', border: '1px solid var(--border-card)', borderRadius: '8px', color: '#fff' }}
                 />

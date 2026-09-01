@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-import { getConfig, updateConfig, hasAlpacaCredentials, hasOpenRouterKey, hasAgenticKey } from './config.js';
+import { getConfig, getMaskedConfig, updateConfig, hasAlpacaCredentials, hasOpenRouterKey, hasAgenticKey } from './config.js';
 import { alpacaClient } from './alpaca/client.js';
 import { agentLoop } from './agent/loop.js';
 import { getDecisions, getTrades, getRiskLogs, getAuditTrail } from './db/database.js';
@@ -122,12 +122,12 @@ app.get('/api/audit', (req, res) => {
 
 // Configuration endpoints
 app.get('/api/config', (req, res) => {
-  res.json(getConfig());
+  res.json(getMaskedConfig());
 });
 
 app.post('/api/config', (req, res) => {
-  const updated = updateConfig(req.body);
-  res.json(updated);
+  updateConfig(req.body);
+  res.json(getMaskedConfig());
 });
 
 // Server-Sent Events (SSE) Stream

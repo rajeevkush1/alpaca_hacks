@@ -54,8 +54,41 @@ export function getConfig(): Config {
   return activeConfig;
 }
 
+export function getMaskedConfig() {
+  const current = getConfig();
+  const mask = (val: string) => (val ? '••••••••••••' : '');
+
+  return {
+    ...current,
+    alpacaApiKey: mask(current.alpacaApiKey),
+    alpacaSecretKey: mask(current.alpacaSecretKey),
+    openRouterApiKey: mask(current.openRouterApiKey),
+    agenticApiKey: mask(current.agenticApiKey),
+    hasAlpacaApiKey: Boolean(current.alpacaApiKey),
+    hasAlpacaSecretKey: Boolean(current.alpacaSecretKey),
+    hasOpenRouterApiKey: Boolean(current.openRouterApiKey),
+  };
+}
+
 export function updateConfig(newPartialConfig: Partial<Config>): Config {
-  activeConfig = { ...activeConfig, ...newPartialConfig };
+  const isMaskedOrEmpty = (val?: string) => !val || val.includes('••••');
+
+  const cleanedUpdates: Partial<Config> = { ...newPartialConfig };
+
+  if (isMaskedOrEmpty(cleanedUpdates.alpacaApiKey)) {
+    delete cleanedUpdates.alpacaApiKey;
+  }
+  if (isMaskedOrEmpty(cleanedUpdates.alpacaSecretKey)) {
+    delete cleanedUpdates.alpacaSecretKey;
+  }
+  if (isMaskedOrEmpty(cleanedUpdates.openRouterApiKey)) {
+    delete cleanedUpdates.openRouterApiKey;
+  }
+  if (isMaskedOrEmpty(cleanedUpdates.agenticApiKey)) {
+    delete cleanedUpdates.agenticApiKey;
+  }
+
+  activeConfig = { ...activeConfig, ...cleanedUpdates };
   return activeConfig;
 }
 
