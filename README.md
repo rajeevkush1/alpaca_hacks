@@ -34,26 +34,65 @@ An autonomous, end-to-end **AI-powered options trading agent** built for the **A
 
 ---
 
-## 🏗️ Architecture Overview
+## 📐 Detailed System Design
+
+The **Autonomous Alpaca Options Alpha Agent** is designed as a decoupled, multi-layered event-driven system operating an autonomous loop every 5 minutes (or on-demand manual triggers).
 
 ```mermaid
-graph TD
-    UI["💻 React Frontend Dashboard<br/>(Vite + SSE Stream + Recharts)"] -->|HTTP / SSE API| Server["⚡ Express Server<br/>(Node.js + TS)"]
-    
-    subgraph Agent Core
-        Server --> Loop["🔄 Agent Autonomous Loop"]
-        Loop --> Scanner["🔍 Market Opportunity Scanner"]
-        Loop --> Strategy["📐 Options Strategy Engine"]
-        Loop --> Risk["🛡️ Risk Engine & Gatekeeper"]
-        Loop --> Memory["💾 Memory & Audit Trail (SQLite)"]
-    end
+sequenceDiagram
+    autonumber
+    participant Loop as 🔄 Agent Loop
+    participant Alpaca as 🦙 Alpaca Market API
+    participant Scanner as 🔍 Scanner
+    participant LLM as 🧠 OpenRouter AI
+    participant Risk as 🛡️ Risk Gatekeeper
+    participant Exec as ⚡ Order Executor
+    participant DB as 💾 Audit DB
 
-    subgraph External Services
-        Strategy -->|LLM Reasoning| AI["🧠 OpenRouter / Agentic API"]
-        Loop -->|REST & WebSockets| Alpaca["🦙 Alpaca Paper API & Market Data"]
-        Server -.->|Protocol Tools| MCP["🔌 Alpaca MCP Server"]
+    Loop->>Alpaca: 1. Get Account & Active Positions
+    Alpaca-->>Loop: Return Equity, Buying Power, Positions
+    Loop->>Scanner: 2. Scan Stock & Options Snapshots
+    Scanner->>Alpaca: Get Volume, Volatility, Greeks & Chains
+    Alpaca-->>Scanner: Return Market Snapshots
+    Scanner-->>Loop: Filtered Opportunities (RSI, IV, Volume)
+    Loop->>LLM: 3. Prompt Market Thesis & Strategy Selection
+    LLM-->>Loop: Structured JSON (Thesis, Leg Specs, Confidence)
+    Loop->>Risk: 4. Evaluate 6 Deterministic Risk Gates
+    alt Risk Gate Fails
+        Risk-->>DB: Log Risk Block Event
+    else All Risk Gates Pass
+        Risk-->>Exec: Approve Trade Proposal
+        Exec->>Alpaca: 5. Submit Options Order (Paper API)
+        Alpaca-->>Exec: Return Order Confirmation ID
+        Exec->>DB: 6. Record Trade & Audit Journal Entry
     end
 ```
+
+### 🧠 7-Step Autonomous Trading Engine
+
+```
+ [1. Market Scan] ──► [2. Technical Filter] ──► [3. LLM Reasoning] ──► [4. Leg Sizing]
+                                                                              │
+ [7. Audit Log]   ◄── [6. Position Manager] ◄── [5. Order Execution] ◄── [4b. Risk Gates]
+```
+
+1. **Market Universe Scanner (`scanner.ts`)**: Retrieves stock quotes, historical daily bars, technical indicators (20 SMA, 50 SMA, RSI, Implied Volatility), and option chain snapshots across liquid market tickers (`AAPL`, `MSFT`, `NVDA`, `AMD`, `SPY`, `QQQ`).
+2. **Options Strategy Evaluator (`strategyEngine.ts`)**: Formulates an options thesis selecting from 5 multi-leg strategies:
+   * **Covered Call** (Bullish / Neutral income)
+   * **Cash-Secured Put** (Neutral / Moderate Bullish entry)
+   * **Long Call / Long Put** (High-conviction directional movement)
+   * **Bull Call Spread / Bear Put Spread** (Defined-risk vertical spreads)
+3. **AI Reasoning Prompt Engine**: Sends real-time market data to OpenRouter (`anthropic/claude-3.5-sonnet` / `google/gemini-2.5-flash`) to generate structured JSON rationale, directional confidence rating ($0.0 - 1.0$), and recommended strike prices.
+4. **Deterministic Risk Gatekeeper (`riskEngine.ts`)**: Evaluates every proposed trade through **6 hard-coded safety gates** before order dispatch:
+   * 🛡️ **Gate 1: Minimum Confidence Threshold** ($\ge 70\%$)
+   * 🛡️ **Gate 2: Max Single-Position Risk** ($\le 5\%$ of Account Equity)
+   * 🛡️ **Gate 3: Available Buying Power Check** (Ensures trade max loss $\le$ free buying power)
+   * 🛡️ **Gate 4: Max Open Positions Limit** ($\le 5$ simultaneous open positions)
+   * 🛡️ **Gate 5: Total Portfolio Exposure Limit** ($\le 30\%$ total portfolio allocation)
+   * 🛡️ **Gate 6: Daily Drawdown Circuit Breaker** (Halts trading if daily loss exceeds limit)
+5. **Order Execution & Alpaca Dispatch (`executor.ts`)**: Constructs exact Alpaca order parameters (Single-leg or multi-leg `mleg` orders) and submits via `alpacaClient` or Model Context Protocol (`mcpWrapper`).
+6. **Live Position Manager (`positionManager.ts`)**: Tracks live open positions, automatically issuing limit close orders when profit target ($+30\%$) or stop-loss ($-20\%$) thresholds are reached.
+7. **Persistent Audit Trail & Memory Store (`memory.ts` + SQLite)**: Records all scans, LLM prompts, gatekeeper pass/fail logs, order status changes, and equity curves into a persistent database.
 
 ---
 
