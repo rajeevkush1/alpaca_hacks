@@ -48,6 +48,9 @@ export function loadConfig(): Config {
 let activeConfig = loadConfig();
 
 export function getConfig(): Config {
+  if ((!activeConfig.alpacaApiKey && process.env.ALPACA_API_KEY) || (!activeConfig.openRouterApiKey && process.env.OPENROUTER_API_KEY)) {
+    activeConfig = loadConfig();
+  }
   return activeConfig;
 }
 

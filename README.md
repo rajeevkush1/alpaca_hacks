@@ -1,6 +1,7 @@
 # 🦙 Autonomous Alpaca Options Alpha Agent
 
 [![Alpaca AI Trading Agents Hackathon](https://img.shields.io/badge/Hackathon-Alpaca%20AI%20Trading%20Agents-🦙%20yellow)](https://alpaca.markets)
+[![Live GCP Demo](https://img.shields.io/badge/GCP%20Cloud%20Run-Live%20Demo-4285F4?logo=googlecloud)](https://alpaca-options-agent-423150728087.us-central1.run.app)
 [![Track](https://img.shields.io/badge/Track-Options%20Alpha%20Agents-blueviolet)](#)
 [![Paper Trading](https://img.shields.io/badge/Environment-Alpaca%20Paper%20Trading-success)](#)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue)](https://www.typescriptlang.org/)
@@ -8,6 +9,8 @@
 [![Vite](https://img.shields.io/badge/Vite-6.1-646cff)](https://vitejs.dev/)
 
 An autonomous, end-to-end **AI-powered options trading agent** built for the **Alpaca AI Trading Agents Hackathon**. The agent operates live in the **Alpaca Paper-Trading Environment**, discovering opportunities, analyzing options chains, generating trading theses, sizing risk, executing multi-leg options orders, monitoring positions, and recording full audit trails.
+
+> 🌐 **Live GCP Cloud Run Deployment**: [https://alpaca-options-agent-423150728087.us-central1.run.app](https://alpaca-options-agent-423150728087.us-central1.run.app)
 
 ---
 
