@@ -1,6 +1,711 @@
 {
   "decisions": [
     {
+      "id": "cycle_1788272875446_dec",
+      "timestamp": "2026-09-01T14:28:05.110Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "direction": "BULLISH",
+      "confidence": 0.72,
+      "thesis": "Dynamic AI scanner identified strong bullish momentum on NFLX ($82.005, +2.21%). Defined-risk Bull Call Debit Spread on NFLX. Buy $82 Call, Sell $87 Call.",
+      "entry_conditions": [
+        "Option Bid-Ask spread < $0.15",
+        "Portfolio exposure < 30%",
+        "Underlying price > $80.36"
+      ],
+      "exit_conditions": [
+        "Stop-Loss triggered at 50% option premium loss",
+        "Take-Profit triggered at 100% option premium gain",
+        "Time exit when DTE < 2 days"
+      ],
+      "risk_factors": [
+        "Market-wide volatility expansion or unexpected news reversal",
+        "Theta decay acceleration near expiration"
+      ],
+      "max_loss": 148,
+      "expected_reward": 352,
+      "position_size": 1,
+      "status": "REJECTED",
+      "risk_status": "OVERRIDDEN",
+      "risk_reason": "Confidence 72% below minimum required 80%",
+      "market_regime": "HIGH_VOLATILITY"
+    },
+    {
+      "id": "cycle_1788272815447_dec",
+      "timestamp": "2026-09-01T14:27:09.969Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "direction": "BULLISH",
+      "confidence": 0.72,
+      "thesis": "Dynamic AI scanner identified strong bullish momentum on NFLX ($81.885, +2.06%). Defined-risk Bull Call Debit Spread on NFLX. Buy $82 Call, Sell $87 Call.",
+      "entry_conditions": [
+        "Option Bid-Ask spread < $0.15",
+        "Portfolio exposure < 30%",
+        "Underlying price > $80.25"
+      ],
+      "exit_conditions": [
+        "Stop-Loss triggered at 50% option premium loss",
+        "Take-Profit triggered at 100% option premium gain",
+        "Time exit when DTE < 2 days"
+      ],
+      "risk_factors": [
+        "Market-wide volatility expansion or unexpected news reversal",
+        "Theta decay acceleration near expiration"
+      ],
+      "max_loss": 148,
+      "expected_reward": 352,
+      "position_size": 1,
+      "status": "REJECTED",
+      "risk_status": "OVERRIDDEN",
+      "risk_reason": "Confidence 72% below minimum required 80%",
+      "market_regime": "HIGH_VOLATILITY"
+    },
+    {
+      "id": "cycle_1788272755445_dec",
+      "timestamp": "2026-09-01T14:26:01.959Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "direction": "BULLISH",
+      "confidence": 0.72,
+      "thesis": "Dynamic AI scanner identified strong bullish momentum on NFLX ($81.91, +2.09%). Defined-risk Bull Call Debit Spread on NFLX. Buy $82 Call, Sell $87 Call.",
+      "entry_conditions": [
+        "Option Bid-Ask spread < $0.15",
+        "Portfolio exposure < 30%",
+        "Underlying price > $80.27"
+      ],
+      "exit_conditions": [
+        "Stop-Loss triggered at 50% option premium loss",
+        "Take-Profit triggered at 100% option premium gain",
+        "Time exit when DTE < 2 days"
+      ],
+      "risk_factors": [
+        "Market-wide volatility expansion or unexpected news reversal",
+        "Theta decay acceleration near expiration"
+      ],
+      "max_loss": 148,
+      "expected_reward": 352,
+      "position_size": 1,
+      "status": "REJECTED",
+      "risk_status": "OVERRIDDEN",
+      "risk_reason": "Confidence 72% below minimum required 80%",
+      "market_regime": "HIGH_VOLATILITY"
+    },
+    {
+      "id": "cycle_1788272695439_dec",
+      "timestamp": "2026-09-01T14:25:03.933Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "direction": "BULLISH",
+      "confidence": 0.72,
+      "thesis": "Dynamic AI scanner identified strong bullish momentum on NFLX ($81.86, +2.03%). Defined-risk Bull Call Debit Spread on NFLX. Buy $82 Call, Sell $87 Call.",
+      "entry_conditions": [
+        "Option Bid-Ask spread < $0.15",
+        "Portfolio exposure < 30%",
+        "Underlying price > $80.22"
+      ],
+      "exit_conditions": [
+        "Stop-Loss triggered at 50% option premium loss",
+        "Take-Profit triggered at 100% option premium gain",
+        "Time exit when DTE < 2 days"
+      ],
+      "risk_factors": [
+        "Market-wide volatility expansion or unexpected news reversal",
+        "Theta decay acceleration near expiration"
+      ],
+      "max_loss": 148,
+      "expected_reward": 352,
+      "position_size": 1,
+      "status": "REJECTED",
+      "risk_status": "OVERRIDDEN",
+      "risk_reason": "Confidence 72% below minimum required 80%",
+      "market_regime": "HIGH_VOLATILITY"
+    },
+    {
+      "id": "cycle_1788272635423_dec",
+      "timestamp": "2026-09-01T14:24:01.793Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "direction": "BULLISH",
+      "confidence": 0.72,
+      "thesis": "Dynamic AI scanner identified strong bullish momentum on NFLX ($81.805, +1.96%). Defined-risk Bull Call Debit Spread on NFLX. Buy $82 Call, Sell $87 Call.",
+      "entry_conditions": [
+        "Option Bid-Ask spread < $0.15",
+        "Portfolio exposure < 30%",
+        "Underlying price > $80.17"
+      ],
+      "exit_conditions": [
+        "Stop-Loss triggered at 50% option premium loss",
+        "Take-Profit triggered at 100% option premium gain",
+        "Time exit when DTE < 2 days"
+      ],
+      "risk_factors": [
+        "Market-wide volatility expansion or unexpected news reversal",
+        "Theta decay acceleration near expiration"
+      ],
+      "max_loss": 147,
+      "expected_reward": 353,
+      "position_size": 1,
+      "status": "REJECTED",
+      "risk_status": "OVERRIDDEN",
+      "risk_reason": "Confidence 72% below minimum required 80%",
+      "market_regime": "HIGH_VOLATILITY"
+    },
+    {
+      "id": "cycle_1788272575420_dec",
+      "timestamp": "2026-09-01T14:23:03.064Z",
+      "symbol": "BAC",
+      "strategy": "BULL_CALL_SPREAD",
+      "direction": "NEUTRAL",
+      "confidence": 0.72,
+      "thesis": "Dynamic AI scanner identified strong neutral momentum on BAC ($44.8, 0%). Defined-risk Bull Call Debit Spread on BAC. Buy $45 Call, Sell $50 Call.",
+      "entry_conditions": [
+        "Option Bid-Ask spread < $0.15",
+        "Portfolio exposure < 30%",
+        "Underlying price > $43.90"
+      ],
+      "exit_conditions": [
+        "Stop-Loss triggered at 50% option premium loss",
+        "Take-Profit triggered at 100% option premium gain",
+        "Time exit when DTE < 2 days"
+      ],
+      "risk_factors": [
+        "Market-wide volatility expansion or unexpected news reversal",
+        "Theta decay acceleration near expiration"
+      ],
+      "max_loss": 90,
+      "expected_reward": 410,
+      "position_size": 1,
+      "status": "REJECTED",
+      "risk_status": "OVERRIDDEN",
+      "risk_reason": "Confidence 72% below minimum required 80%",
+      "market_regime": "NORMAL_VOLATILITY"
+    },
+    {
+      "id": "cycle_1788272549561_dec",
+      "timestamp": "2026-09-01T14:22:39.309Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "direction": "BULLISH",
+      "confidence": 0.72,
+      "thesis": "Dynamic AI scanner identified strong bullish momentum on NFLX ($81.8, +1.96%). Defined-risk Bull Call Debit Spread on NFLX. Buy $82 Call, Sell $87 Call.",
+      "entry_conditions": [
+        "Option Bid-Ask spread < $0.15",
+        "Portfolio exposure < 30%",
+        "Underlying price > $80.16"
+      ],
+      "exit_conditions": [
+        "Stop-Loss triggered at 50% option premium loss",
+        "Take-Profit triggered at 100% option premium gain",
+        "Time exit when DTE < 2 days"
+      ],
+      "risk_factors": [
+        "Market-wide volatility expansion or unexpected news reversal",
+        "Theta decay acceleration near expiration"
+      ],
+      "max_loss": 147,
+      "expected_reward": 353,
+      "position_size": 1,
+      "status": "REJECTED",
+      "risk_status": "OVERRIDDEN",
+      "risk_reason": "Confidence 72% below minimum required 80%",
+      "market_regime": "HIGH_VOLATILITY"
+    },
+    {
+      "id": "cycle_1788272531444_dec",
+      "timestamp": "2026-09-01T14:22:24.300Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "direction": "BULLISH",
+      "confidence": 0.72,
+      "thesis": "Dynamic AI scanner identified strong bullish momentum on NFLX ($81.745, +1.89%). Defined-risk Bull Call Debit Spread on NFLX. Buy $82 Call, Sell $87 Call.",
+      "entry_conditions": [
+        "Option Bid-Ask spread < $0.15",
+        "Portfolio exposure < 30%",
+        "Underlying price > $80.11"
+      ],
+      "exit_conditions": [
+        "Stop-Loss triggered at 50% option premium loss",
+        "Take-Profit triggered at 100% option premium gain",
+        "Time exit when DTE < 2 days"
+      ],
+      "risk_factors": [
+        "Market-wide volatility expansion or unexpected news reversal",
+        "Theta decay acceleration near expiration"
+      ],
+      "max_loss": 147,
+      "expected_reward": 353,
+      "position_size": 1,
+      "status": "REJECTED",
+      "risk_status": "OVERRIDDEN",
+      "risk_reason": "Confidence 72% below minimum required 80%",
+      "market_regime": "HIGH_VOLATILITY"
+    },
+    {
+      "id": "cycle_1788272520306_dec",
+      "timestamp": "2026-09-01T14:22:11.866Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "direction": "BULLISH",
+      "confidence": 0.72,
+      "thesis": "Dynamic AI scanner identified strong bullish momentum on NFLX ($81.705, +1.84%). Defined-risk Bull Call Debit Spread on NFLX. Buy $82 Call, Sell $87 Call.",
+      "entry_conditions": [
+        "Option Bid-Ask spread < $0.15",
+        "Portfolio exposure < 30%",
+        "Underlying price > $80.07"
+      ],
+      "exit_conditions": [
+        "Stop-Loss triggered at 50% option premium loss",
+        "Take-Profit triggered at 100% option premium gain",
+        "Time exit when DTE < 2 days"
+      ],
+      "risk_factors": [
+        "Market-wide volatility expansion or unexpected news reversal",
+        "Theta decay acceleration near expiration"
+      ],
+      "max_loss": 147,
+      "expected_reward": 353,
+      "position_size": 1,
+      "status": "REJECTED",
+      "risk_status": "OVERRIDDEN",
+      "risk_reason": "Confidence 72% below minimum required 80%",
+      "market_regime": "HIGH_VOLATILITY"
+    },
+    {
+      "id": "cycle_1788272455417_dec",
+      "timestamp": "2026-09-01T14:21:01.735Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "direction": "BULLISH",
+      "confidence": 0.72,
+      "thesis": "Dynamic AI scanner identified strong bullish momentum on NFLX ($81.67, +1.79%). Defined-risk Bull Call Debit Spread on NFLX. Buy $82 Call, Sell $87 Call.",
+      "entry_conditions": [
+        "Option Bid-Ask spread < $0.15",
+        "Portfolio exposure < 30%",
+        "Underlying price > $80.04"
+      ],
+      "exit_conditions": [
+        "Stop-Loss triggered at 50% option premium loss",
+        "Take-Profit triggered at 100% option premium gain",
+        "Time exit when DTE < 2 days"
+      ],
+      "risk_factors": [
+        "Market-wide volatility expansion or unexpected news reversal",
+        "Theta decay acceleration near expiration"
+      ],
+      "max_loss": 147,
+      "expected_reward": 353,
+      "position_size": 1,
+      "status": "EXECUTED",
+      "risk_status": "PASSED",
+      "market_regime": "HIGH_VOLATILITY"
+    },
+    {
+      "id": "cycle_1788272419742_dec",
+      "timestamp": "2026-09-01T14:20:30.476Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "direction": "BULLISH",
+      "confidence": 0.72,
+      "thesis": "Dynamic AI scanner identified strong bullish momentum on NFLX ($81.66, +1.78%). Defined-risk Bull Call Debit Spread on NFLX. Buy $82 Call, Sell $87 Call.",
+      "entry_conditions": [
+        "Option Bid-Ask spread < $0.15",
+        "Portfolio exposure < 30%",
+        "Underlying price > $80.03"
+      ],
+      "exit_conditions": [
+        "Stop-Loss triggered at 50% option premium loss",
+        "Take-Profit triggered at 100% option premium gain",
+        "Time exit when DTE < 2 days"
+      ],
+      "risk_factors": [
+        "Market-wide volatility expansion or unexpected news reversal",
+        "Theta decay acceleration near expiration"
+      ],
+      "max_loss": 147,
+      "expected_reward": 353,
+      "position_size": 1,
+      "status": "EXECUTED",
+      "risk_status": "PASSED",
+      "market_regime": "HIGH_VOLATILITY"
+    },
+    {
+      "id": "cycle_1788272395415_dec",
+      "timestamp": "2026-09-01T14:20:02.603Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "direction": "BULLISH",
+      "confidence": 0.72,
+      "thesis": "Dynamic AI scanner identified strong bullish momentum on NFLX ($81.64, +1.76%). Defined-risk Bull Call Debit Spread on NFLX. Buy $82 Call, Sell $87 Call.",
+      "entry_conditions": [
+        "Option Bid-Ask spread < $0.15",
+        "Portfolio exposure < 30%",
+        "Underlying price > $80.01"
+      ],
+      "exit_conditions": [
+        "Stop-Loss triggered at 50% option premium loss",
+        "Take-Profit triggered at 100% option premium gain",
+        "Time exit when DTE < 2 days"
+      ],
+      "risk_factors": [
+        "Market-wide volatility expansion or unexpected news reversal",
+        "Theta decay acceleration near expiration"
+      ],
+      "max_loss": 147,
+      "expected_reward": 353,
+      "position_size": 1,
+      "status": "EXECUTED",
+      "risk_status": "PASSED",
+      "market_regime": "HIGH_VOLATILITY"
+    },
+    {
+      "id": "cycle_1788272335406_dec",
+      "timestamp": "2026-09-01T14:19:02.608Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "direction": "BULLISH",
+      "confidence": 0.72,
+      "thesis": "Dynamic AI scanner identified strong bullish momentum on NFLX ($81.595, +1.7%). Defined-risk Bull Call Debit Spread on NFLX. Buy $82 Call, Sell $87 Call.",
+      "entry_conditions": [
+        "Option Bid-Ask spread < $0.15",
+        "Portfolio exposure < 30%",
+        "Underlying price > $79.96"
+      ],
+      "exit_conditions": [
+        "Stop-Loss triggered at 50% option premium loss",
+        "Take-Profit triggered at 100% option premium gain",
+        "Time exit when DTE < 2 days"
+      ],
+      "risk_factors": [
+        "Market-wide volatility expansion or unexpected news reversal",
+        "Theta decay acceleration near expiration"
+      ],
+      "max_loss": 147,
+      "expected_reward": 353,
+      "position_size": 1,
+      "status": "EXECUTED",
+      "risk_status": "PASSED",
+      "market_regime": "HIGH_VOLATILITY"
+    },
+    {
+      "id": "cycle_1788272275405_dec",
+      "timestamp": "2026-09-01T14:18:06.701Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "direction": "BULLISH",
+      "confidence": 0.72,
+      "thesis": "Dynamic AI scanner identified strong bullish momentum on NFLX ($81.63, +1.74%). Defined-risk Bull Call Debit Spread on NFLX. Buy $82 Call, Sell $87 Call.",
+      "entry_conditions": [
+        "Option Bid-Ask spread < $0.15",
+        "Portfolio exposure < 30%",
+        "Underlying price > $80.00"
+      ],
+      "exit_conditions": [
+        "Stop-Loss triggered at 50% option premium loss",
+        "Take-Profit triggered at 100% option premium gain",
+        "Time exit when DTE < 2 days"
+      ],
+      "risk_factors": [
+        "Market-wide volatility expansion or unexpected news reversal",
+        "Theta decay acceleration near expiration"
+      ],
+      "max_loss": 147,
+      "expected_reward": 353,
+      "position_size": 1,
+      "status": "EXECUTED",
+      "risk_status": "PASSED",
+      "market_regime": "NORMAL_VOLATILITY"
+    },
+    {
+      "id": "cycle_1788272215400_dec",
+      "timestamp": "2026-09-01T14:17:01.932Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "direction": "BULLISH",
+      "confidence": 0.72,
+      "thesis": "Dynamic AI scanner identified strong bullish momentum on NFLX ($81.57, +1.67%). Defined-risk Bull Call Debit Spread on NFLX. Buy $82 Call, Sell $87 Call.",
+      "entry_conditions": [
+        "Option Bid-Ask spread < $0.15",
+        "Portfolio exposure < 30%",
+        "Underlying price > $79.94"
+      ],
+      "exit_conditions": [
+        "Stop-Loss triggered at 50% option premium loss",
+        "Take-Profit triggered at 100% option premium gain",
+        "Time exit when DTE < 2 days"
+      ],
+      "risk_factors": [
+        "Market-wide volatility expansion or unexpected news reversal",
+        "Theta decay acceleration near expiration"
+      ],
+      "max_loss": 147,
+      "expected_reward": 353,
+      "position_size": 1,
+      "status": "EXECUTED",
+      "risk_status": "PASSED",
+      "market_regime": "NORMAL_VOLATILITY"
+    },
+    {
+      "id": "cycle_1788272155392_dec",
+      "timestamp": "2026-09-01T14:16:03.404Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "direction": "BULLISH",
+      "confidence": 0.72,
+      "thesis": "Dynamic AI scanner identified strong bullish momentum on NFLX ($81.4, +1.46%). Defined-risk Bull Call Debit Spread on NFLX. Buy $81 Call, Sell $86 Call.",
+      "entry_conditions": [
+        "Option Bid-Ask spread < $0.15",
+        "Portfolio exposure < 30%",
+        "Underlying price > $79.77"
+      ],
+      "exit_conditions": [
+        "Stop-Loss triggered at 50% option premium loss",
+        "Take-Profit triggered at 100% option premium gain",
+        "Time exit when DTE < 2 days"
+      ],
+      "risk_factors": [
+        "Market-wide volatility expansion or unexpected news reversal",
+        "Theta decay acceleration near expiration"
+      ],
+      "max_loss": 146,
+      "expected_reward": 354,
+      "position_size": 1,
+      "status": "EXECUTED",
+      "risk_status": "PASSED",
+      "market_regime": "NORMAL_VOLATILITY"
+    },
+    {
+      "id": "cycle_1788272095387_dec",
+      "timestamp": "2026-09-01T14:15:03.491Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "direction": "BULLISH",
+      "confidence": 0.72,
+      "thesis": "Dynamic AI scanner identified strong bullish momentum on NFLX ($81.385, +1.44%). Defined-risk Bull Call Debit Spread on NFLX. Buy $81 Call, Sell $86 Call.",
+      "entry_conditions": [
+        "Option Bid-Ask spread < $0.15",
+        "Portfolio exposure < 30%",
+        "Underlying price > $79.76"
+      ],
+      "exit_conditions": [
+        "Stop-Loss triggered at 50% option premium loss",
+        "Take-Profit triggered at 100% option premium gain",
+        "Time exit when DTE < 2 days"
+      ],
+      "risk_factors": [
+        "Market-wide volatility expansion or unexpected news reversal",
+        "Theta decay acceleration near expiration"
+      ],
+      "max_loss": 146,
+      "expected_reward": 354,
+      "position_size": 1,
+      "status": "EXECUTED",
+      "risk_status": "PASSED",
+      "market_regime": "NORMAL_VOLATILITY"
+    },
+    {
+      "id": "cycle_1788272035391_dec",
+      "timestamp": "2026-09-01T14:14:06.002Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "direction": "BULLISH",
+      "confidence": 0.72,
+      "thesis": "Dynamic AI scanner identified strong bullish momentum on NFLX ($81.315, +1.35%). Defined-risk Bull Call Debit Spread on NFLX. Buy $81 Call, Sell $86 Call.",
+      "entry_conditions": [
+        "Option Bid-Ask spread < $0.15",
+        "Portfolio exposure < 30%",
+        "Underlying price > $79.69"
+      ],
+      "exit_conditions": [
+        "Stop-Loss triggered at 50% option premium loss",
+        "Take-Profit triggered at 100% option premium gain",
+        "Time exit when DTE < 2 days"
+      ],
+      "risk_factors": [
+        "Market-wide volatility expansion or unexpected news reversal",
+        "Theta decay acceleration near expiration"
+      ],
+      "max_loss": 146,
+      "expected_reward": 354,
+      "position_size": 1,
+      "status": "EXECUTED",
+      "risk_status": "PASSED",
+      "market_regime": "NORMAL_VOLATILITY"
+    },
+    {
+      "id": "cycle_1788271975386_dec",
+      "timestamp": "2026-09-01T14:13:05.077Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "direction": "BULLISH",
+      "confidence": 0.72,
+      "thesis": "Dynamic AI scanner identified strong bullish momentum on NFLX ($81.17, +1.17%). Defined-risk Bull Call Debit Spread on NFLX. Buy $81 Call, Sell $86 Call.",
+      "entry_conditions": [
+        "Option Bid-Ask spread < $0.15",
+        "Portfolio exposure < 30%",
+        "Underlying price > $79.55"
+      ],
+      "exit_conditions": [
+        "Stop-Loss triggered at 50% option premium loss",
+        "Take-Profit triggered at 100% option premium gain",
+        "Time exit when DTE < 2 days"
+      ],
+      "risk_factors": [
+        "Market-wide volatility expansion or unexpected news reversal",
+        "Theta decay acceleration near expiration"
+      ],
+      "max_loss": 146,
+      "expected_reward": 354,
+      "position_size": 1,
+      "status": "EXECUTED",
+      "risk_status": "PASSED",
+      "market_regime": "NORMAL_VOLATILITY"
+    },
+    {
+      "id": "cycle_1788271915368_dec",
+      "timestamp": "2026-09-01T14:12:02.571Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "direction": "BULLISH",
+      "confidence": 0.72,
+      "thesis": "Dynamic AI scanner identified strong bullish momentum on NFLX ($81.105, +1.09%). Defined-risk Bull Call Debit Spread on NFLX. Buy $81 Call, Sell $86 Call.",
+      "entry_conditions": [
+        "Option Bid-Ask spread < $0.15",
+        "Portfolio exposure < 30%",
+        "Underlying price > $79.48"
+      ],
+      "exit_conditions": [
+        "Stop-Loss triggered at 50% option premium loss",
+        "Take-Profit triggered at 100% option premium gain",
+        "Time exit when DTE < 2 days"
+      ],
+      "risk_factors": [
+        "Market-wide volatility expansion or unexpected news reversal",
+        "Theta decay acceleration near expiration"
+      ],
+      "max_loss": 146,
+      "expected_reward": 354,
+      "position_size": 1,
+      "status": "EXECUTED",
+      "risk_status": "PASSED",
+      "market_regime": "NORMAL_VOLATILITY"
+    },
+    {
+      "id": "cycle_1788271855368_dec",
+      "timestamp": "2026-09-01T14:11:05.503Z",
+      "symbol": "BAC",
+      "strategy": "BULL_CALL_SPREAD",
+      "direction": "BULLISH",
+      "confidence": 0.72,
+      "thesis": "Dynamic AI scanner identified strong bullish momentum on BAC ($62.425, +0.82%). Defined-risk Bull Call Debit Spread on BAC. Buy $62 Call, Sell $67 Call.",
+      "entry_conditions": [
+        "Option Bid-Ask spread < $0.15",
+        "Portfolio exposure < 30%",
+        "Underlying price > $61.18"
+      ],
+      "exit_conditions": [
+        "Stop-Loss triggered at 50% option premium loss",
+        "Take-Profit triggered at 100% option premium gain",
+        "Time exit when DTE < 2 days"
+      ],
+      "risk_factors": [
+        "Market-wide volatility expansion or unexpected news reversal",
+        "Theta decay acceleration near expiration"
+      ],
+      "max_loss": 112,
+      "expected_reward": 388,
+      "position_size": 1,
+      "status": "EXECUTED",
+      "risk_status": "PASSED",
+      "market_regime": "NORMAL_VOLATILITY"
+    },
+    {
+      "id": "cycle_1788271795349_dec",
+      "timestamp": "2026-09-01T14:10:03.152Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "direction": "BULLISH",
+      "confidence": 0.72,
+      "thesis": "Dynamic AI scanner identified strong bullish momentum on NFLX ($81.12, +1.11%). Defined-risk Bull Call Debit Spread on NFLX. Buy $81 Call, Sell $86 Call.",
+      "entry_conditions": [
+        "Option Bid-Ask spread < $0.15",
+        "Portfolio exposure < 30%",
+        "Underlying price > $79.50"
+      ],
+      "exit_conditions": [
+        "Stop-Loss triggered at 50% option premium loss",
+        "Take-Profit triggered at 100% option premium gain",
+        "Time exit when DTE < 2 days"
+      ],
+      "risk_factors": [
+        "Market-wide volatility expansion or unexpected news reversal",
+        "Theta decay acceleration near expiration"
+      ],
+      "max_loss": 146,
+      "expected_reward": 354,
+      "position_size": 1,
+      "status": "EXECUTED",
+      "risk_status": "PASSED",
+      "market_regime": "NORMAL_VOLATILITY"
+    },
+    {
+      "id": "cycle_1788271735333_dec",
+      "timestamp": "2026-09-01T14:09:01.965Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "direction": "BULLISH",
+      "confidence": 0.72,
+      "thesis": "Dynamic AI scanner identified strong bullish momentum on NFLX ($81.08, +1.06%). Defined-risk Bull Call Debit Spread on NFLX. Buy $81 Call, Sell $86 Call.",
+      "entry_conditions": [
+        "Option Bid-Ask spread < $0.15",
+        "Portfolio exposure < 30%",
+        "Underlying price > $79.46"
+      ],
+      "exit_conditions": [
+        "Stop-Loss triggered at 50% option premium loss",
+        "Take-Profit triggered at 100% option premium gain",
+        "Time exit when DTE < 2 days"
+      ],
+      "risk_factors": [
+        "Market-wide volatility expansion or unexpected news reversal",
+        "Theta decay acceleration near expiration"
+      ],
+      "max_loss": 146,
+      "expected_reward": 354,
+      "position_size": 1,
+      "status": "EXECUTED",
+      "risk_status": "PASSED",
+      "market_regime": "NORMAL_VOLATILITY"
+    },
+    {
+      "id": "cycle_1788271732115_dec",
+      "timestamp": "2026-09-01T14:09:01.096Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "direction": "BULLISH",
+      "confidence": 0.72,
+      "thesis": "Dynamic AI scanner identified strong bullish momentum on NFLX ($81.07, +1.05%). Defined-risk Bull Call Debit Spread on NFLX. Buy $81 Call, Sell $86 Call.",
+      "entry_conditions": [
+        "Option Bid-Ask spread < $0.15",
+        "Portfolio exposure < 30%",
+        "Underlying price > $79.45"
+      ],
+      "exit_conditions": [
+        "Stop-Loss triggered at 50% option premium loss",
+        "Take-Profit triggered at 100% option premium gain",
+        "Time exit when DTE < 2 days"
+      ],
+      "risk_factors": [
+        "Market-wide volatility expansion or unexpected news reversal",
+        "Theta decay acceleration near expiration"
+      ],
+      "max_loss": 146,
+      "expected_reward": 354,
+      "position_size": 1,
+      "status": "EXECUTED",
+      "risk_status": "PASSED",
+      "market_regime": "NORMAL_VOLATILITY"
+    },
+    {
       "id": "cycle_1788195379232_dec",
       "timestamp": "2026-08-31T16:56:28.592Z",
       "symbol": "TSLA",
@@ -119,6 +824,231 @@
   ],
   "trades": [
     {
+      "id": "trade_1788272462621",
+      "decision_id": "NFLX",
+      "timestamp": "2026-09-01T14:21:02.621Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "option_symbol": "NFLX261001C00082000",
+      "direction": "BULLISH",
+      "quantity": 1,
+      "entry_price": 1.47,
+      "unrealized_pnl": 0,
+      "realized_pnl": 0,
+      "status": "OPEN",
+      "entry_time": "2026-09-01T14:21:02.621Z"
+    },
+    {
+      "id": "trade_1788272431242",
+      "decision_id": "NFLX",
+      "timestamp": "2026-09-01T14:20:31.242Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "option_symbol": "NFLX261001C00082000",
+      "direction": "BULLISH",
+      "quantity": 1,
+      "entry_price": 1.47,
+      "unrealized_pnl": 0,
+      "realized_pnl": 0,
+      "status": "OPEN",
+      "entry_time": "2026-09-01T14:20:31.242Z"
+    },
+    {
+      "id": "trade_1788272402886",
+      "decision_id": "NFLX",
+      "timestamp": "2026-09-01T14:20:02.886Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "option_symbol": "NFLX261001C00082000",
+      "direction": "BULLISH",
+      "quantity": 1,
+      "entry_price": 1.47,
+      "unrealized_pnl": 0,
+      "realized_pnl": 0,
+      "status": "OPEN",
+      "entry_time": "2026-09-01T14:20:02.886Z"
+    },
+    {
+      "id": "trade_1788272342888",
+      "decision_id": "NFLX",
+      "timestamp": "2026-09-01T14:19:02.888Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "option_symbol": "NFLX261001C00082000",
+      "direction": "BULLISH",
+      "quantity": 1,
+      "entry_price": 1.47,
+      "unrealized_pnl": 0,
+      "realized_pnl": 0,
+      "status": "OPEN",
+      "entry_time": "2026-09-01T14:19:02.888Z"
+    },
+    {
+      "id": "trade_1788272287419",
+      "decision_id": "NFLX",
+      "timestamp": "2026-09-01T14:18:07.419Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "option_symbol": "NFLX261001C00082000",
+      "direction": "BULLISH",
+      "quantity": 1,
+      "entry_price": 1.47,
+      "unrealized_pnl": 0,
+      "realized_pnl": 0,
+      "status": "OPEN",
+      "entry_time": "2026-09-01T14:18:07.419Z"
+    },
+    {
+      "id": "trade_1788272222825",
+      "decision_id": "NFLX",
+      "timestamp": "2026-09-01T14:17:02.825Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "option_symbol": "NFLX261001C00082000",
+      "direction": "BULLISH",
+      "quantity": 1,
+      "entry_price": 1.47,
+      "unrealized_pnl": 0,
+      "realized_pnl": 0,
+      "status": "OPEN",
+      "entry_time": "2026-09-01T14:17:02.825Z"
+    },
+    {
+      "id": "trade_1788272164157",
+      "decision_id": "NFLX",
+      "timestamp": "2026-09-01T14:16:04.157Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "option_symbol": "NFLX261001C00081000",
+      "direction": "BULLISH",
+      "quantity": 1,
+      "entry_price": 1.46,
+      "unrealized_pnl": 0,
+      "realized_pnl": 0,
+      "status": "OPEN",
+      "entry_time": "2026-09-01T14:16:04.157Z"
+    },
+    {
+      "id": "trade_1788272105180",
+      "decision_id": "NFLX",
+      "timestamp": "2026-09-01T14:15:05.180Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "option_symbol": "NFLX261001C00081000",
+      "direction": "BULLISH",
+      "quantity": 1,
+      "entry_price": 1.46,
+      "unrealized_pnl": 0,
+      "realized_pnl": 0,
+      "status": "OPEN",
+      "entry_time": "2026-09-01T14:15:05.180Z"
+    },
+    {
+      "id": "trade_1788272046829",
+      "decision_id": "NFLX",
+      "timestamp": "2026-09-01T14:14:06.829Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "option_symbol": "NFLX261001C00081000",
+      "direction": "BULLISH",
+      "quantity": 1,
+      "entry_price": 1.46,
+      "unrealized_pnl": 0,
+      "realized_pnl": 0,
+      "status": "OPEN",
+      "entry_time": "2026-09-01T14:14:06.829Z"
+    },
+    {
+      "id": "trade_1788271986081",
+      "decision_id": "NFLX",
+      "timestamp": "2026-09-01T14:13:06.081Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "option_symbol": "NFLX261001C00081000",
+      "direction": "BULLISH",
+      "quantity": 1,
+      "entry_price": 1.46,
+      "unrealized_pnl": 0,
+      "realized_pnl": 0,
+      "status": "OPEN",
+      "entry_time": "2026-09-01T14:13:06.081Z"
+    },
+    {
+      "id": "trade_1788271923498",
+      "decision_id": "NFLX",
+      "timestamp": "2026-09-01T14:12:03.498Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "option_symbol": "NFLX261001C00081000",
+      "direction": "BULLISH",
+      "quantity": 1,
+      "entry_price": 1.46,
+      "unrealized_pnl": 0,
+      "realized_pnl": 0,
+      "status": "OPEN",
+      "entry_time": "2026-09-01T14:12:03.498Z"
+    },
+    {
+      "id": "trade_1788271866362",
+      "decision_id": "BAC",
+      "timestamp": "2026-09-01T14:11:06.362Z",
+      "symbol": "BAC",
+      "strategy": "BULL_CALL_SPREAD",
+      "option_symbol": "BAC261001C00062000",
+      "direction": "BULLISH",
+      "quantity": 1,
+      "entry_price": 1.12,
+      "unrealized_pnl": 0,
+      "realized_pnl": 0,
+      "status": "OPEN",
+      "entry_time": "2026-09-01T14:11:06.362Z"
+    },
+    {
+      "id": "trade_1788271803993",
+      "decision_id": "NFLX",
+      "timestamp": "2026-09-01T14:10:03.993Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "option_symbol": "NFLX261001C00081000",
+      "direction": "BULLISH",
+      "quantity": 1,
+      "entry_price": 1.46,
+      "unrealized_pnl": 0,
+      "realized_pnl": 0,
+      "status": "OPEN",
+      "entry_time": "2026-09-01T14:10:03.993Z"
+    },
+    {
+      "id": "trade_1788271742780",
+      "decision_id": "NFLX",
+      "timestamp": "2026-09-01T14:09:02.780Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "option_symbol": "NFLX261001C00081000",
+      "direction": "BULLISH",
+      "quantity": 1,
+      "entry_price": 1.46,
+      "unrealized_pnl": 0,
+      "realized_pnl": 0,
+      "status": "OPEN",
+      "entry_time": "2026-09-01T14:09:02.780Z"
+    },
+    {
+      "id": "trade_1788271742014",
+      "decision_id": "NFLX",
+      "timestamp": "2026-09-01T14:09:02.014Z",
+      "symbol": "NFLX",
+      "strategy": "BULL_CALL_SPREAD",
+      "option_symbol": "NFLX261001C00081000",
+      "direction": "BULLISH",
+      "quantity": 1,
+      "entry_price": 1.46,
+      "unrealized_pnl": 0,
+      "realized_pnl": 0,
+      "status": "OPEN",
+      "entry_time": "2026-09-01T14:09:02.014Z"
+    },
+    {
       "id": "trade_1788195389439",
       "decision_id": "TSLA",
       "timestamp": "2026-08-31T16:56:29.439Z",
@@ -210,6 +1140,1446 @@
     }
   ],
   "risk_logs": [
+    {
+      "id": "1788272885102_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-09-01T14:28:05.061Z",
+      "symbol": "NFLX",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1100,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1100"
+    },
+    {
+      "id": "1788272885093_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-09-01T14:28:05.061Z",
+      "symbol": "NFLX",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 1155.0801999999999,
+      "threshold": 29995.667999999998,
+      "message": "Total exposure $1155.08 is within portfolio limit $29995.67"
+    },
+    {
+      "id": "1788272885086_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-09-01T14:28:05.061Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 1,
+      "threshold": 5,
+      "message": "Active positions count (1) is below maximum limit (5)"
+    },
+    {
+      "id": "1788272885074_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-09-01T14:28:05.061Z",
+      "symbol": "NFLX",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 148,
+      "threshold": 358860.249,
+      "message": "Trade max loss $148 is within available buying power $398733.61"
+    },
+    {
+      "id": "1788272885068_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-09-01T14:28:05.061Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 148,
+      "threshold": 4999.278,
+      "message": "Trade max loss $148 is within single-position risk limit $4999.28"
+    },
+    {
+      "id": "1788272885061_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-09-01T14:28:05.061Z",
+      "symbol": "NFLX",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": false,
+      "value": 0.72,
+      "threshold": 0.8,
+      "message": "Confidence 72% below minimum required 80%"
+    },
+    {
+      "id": "1788272829960_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-09-01T14:27:09.920Z",
+      "symbol": "NFLX",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1100,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1100"
+    },
+    {
+      "id": "1788272829951_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-09-01T14:27:09.920Z",
+      "symbol": "NFLX",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 1155.6399999999999,
+      "threshold": 29995.841999999997,
+      "message": "Total exposure $1155.64 is within portfolio limit $29995.84"
+    },
+    {
+      "id": "1788272829942_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-09-01T14:27:09.920Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 1,
+      "threshold": 5,
+      "message": "Active positions count (1) is below maximum limit (5)"
+    },
+    {
+      "id": "1788272829933_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-09-01T14:27:09.920Z",
+      "symbol": "NFLX",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 148,
+      "threshold": 358861.716,
+      "message": "Trade max loss $148 is within available buying power $398735.24"
+    },
+    {
+      "id": "1788272829926_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-09-01T14:27:09.920Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 148,
+      "threshold": 4999.307000000001,
+      "message": "Trade max loss $148 is within single-position risk limit $4999.31"
+    },
+    {
+      "id": "1788272829920_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-09-01T14:27:09.920Z",
+      "symbol": "NFLX",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": false,
+      "value": 0.72,
+      "threshold": 0.8,
+      "message": "Confidence 72% below minimum required 80%"
+    },
+    {
+      "id": "1788272761954_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-09-01T14:26:01.910Z",
+      "symbol": "NFLX",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1100,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1100"
+    },
+    {
+      "id": "1788272761948_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-09-01T14:26:01.910Z",
+      "symbol": "NFLX",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 1156.74,
+      "threshold": 29996.132999999998,
+      "message": "Total exposure $1156.74 is within portfolio limit $29996.13"
+    },
+    {
+      "id": "1788272761942_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-09-01T14:26:01.910Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 1,
+      "threshold": 5,
+      "message": "Active positions count (1) is below maximum limit (5)"
+    },
+    {
+      "id": "1788272761935_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-09-01T14:26:01.910Z",
+      "symbol": "NFLX",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 148,
+      "threshold": 358864.155,
+      "message": "Trade max loss $148 is within available buying power $398737.95"
+    },
+    {
+      "id": "1788272761917_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-09-01T14:26:01.910Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 148,
+      "threshold": 4999.355500000001,
+      "message": "Trade max loss $148 is within single-position risk limit $4999.36"
+    },
+    {
+      "id": "1788272761910_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-09-01T14:26:01.910Z",
+      "symbol": "NFLX",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": false,
+      "value": 0.72,
+      "threshold": 0.8,
+      "message": "Confidence 72% below minimum required 80%"
+    },
+    {
+      "id": "1788272703926_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-09-01T14:25:03.895Z",
+      "symbol": "NFLX",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1100,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1100"
+    },
+    {
+      "id": "1788272703919_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-09-01T14:25:03.895Z",
+      "symbol": "NFLX",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 1156.42,
+      "threshold": 29996.036999999997,
+      "message": "Total exposure $1156.42 is within portfolio limit $29996.04"
+    },
+    {
+      "id": "1788272703913_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-09-01T14:25:03.895Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 1,
+      "threshold": 5,
+      "message": "Active positions count (1) is below maximum limit (5)"
+    },
+    {
+      "id": "1788272703907_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-09-01T14:25:03.895Z",
+      "symbol": "NFLX",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 148,
+      "threshold": 358863.354,
+      "message": "Trade max loss $148 is within available buying power $398737.06"
+    },
+    {
+      "id": "1788272703901_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-09-01T14:25:03.895Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 148,
+      "threshold": 4999.3395,
+      "message": "Trade max loss $148 is within single-position risk limit $4999.34"
+    },
+    {
+      "id": "1788272703895_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-09-01T14:25:03.895Z",
+      "symbol": "NFLX",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": false,
+      "value": 0.72,
+      "threshold": 0.8,
+      "message": "Confidence 72% below minimum required 80%"
+    },
+    {
+      "id": "1788272641786_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-09-01T14:24:01.755Z",
+      "symbol": "NFLX",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1100,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1100"
+    },
+    {
+      "id": "1788272641781_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-09-01T14:24:01.755Z",
+      "symbol": "NFLX",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 1155.76,
+      "threshold": 29996.139,
+      "message": "Total exposure $1155.76 is within portfolio limit $29996.14"
+    },
+    {
+      "id": "1788272641775_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-09-01T14:24:01.755Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 1,
+      "threshold": 5,
+      "message": "Active positions count (1) is below maximum limit (5)"
+    },
+    {
+      "id": "1788272641769_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-09-01T14:24:01.755Z",
+      "symbol": "NFLX",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 147,
+      "threshold": 358864.20900000003,
+      "message": "Trade max loss $147 is within available buying power $398738.01"
+    },
+    {
+      "id": "1788272641760_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-09-01T14:24:01.755Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 147,
+      "threshold": 4999.356500000001,
+      "message": "Trade max loss $147 is within single-position risk limit $4999.36"
+    },
+    {
+      "id": "1788272641755_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-09-01T14:24:01.755Z",
+      "symbol": "NFLX",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": false,
+      "value": 0.72,
+      "threshold": 0.8,
+      "message": "Confidence 72% below minimum required 80%"
+    },
+    {
+      "id": "1788272583034_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-09-01T14:23:02.939Z",
+      "symbol": "BAC",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1100,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1100"
+    },
+    {
+      "id": "1788272583008_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-09-01T14:23:02.939Z",
+      "symbol": "BAC",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 1098.65,
+      "threshold": 29996.067,
+      "message": "Total exposure $1098.65 is within portfolio limit $29996.07"
+    },
+    {
+      "id": "1788272582987_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-09-01T14:23:02.939Z",
+      "symbol": "BAC",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 1,
+      "threshold": 5,
+      "message": "Active positions count (1) is below maximum limit (5)"
+    },
+    {
+      "id": "1788272582974_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-09-01T14:23:02.939Z",
+      "symbol": "BAC",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 90,
+      "threshold": 358863.606,
+      "message": "Trade max loss $90 is within available buying power $398737.34"
+    },
+    {
+      "id": "1788272582952_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-09-01T14:23:02.939Z",
+      "symbol": "BAC",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 90,
+      "threshold": 4999.3445,
+      "message": "Trade max loss $90 is within single-position risk limit $4999.34"
+    },
+    {
+      "id": "1788272582939_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-09-01T14:23:02.939Z",
+      "symbol": "BAC",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": false,
+      "value": 0.72,
+      "threshold": 0.8,
+      "message": "Confidence 72% below minimum required 80%"
+    },
+    {
+      "id": "1788272559301_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-09-01T14:22:39.242Z",
+      "symbol": "NFLX",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1100,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1100"
+    },
+    {
+      "id": "1788272559284_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-09-01T14:22:39.242Z",
+      "symbol": "NFLX",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 1155.72,
+      "threshold": 29996.126999999997,
+      "message": "Total exposure $1155.72 is within portfolio limit $29996.13"
+    },
+    {
+      "id": "1788272559277_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-09-01T14:22:39.242Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 1,
+      "threshold": 5,
+      "message": "Active positions count (1) is below maximum limit (5)"
+    },
+    {
+      "id": "1788272559260_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-09-01T14:22:39.242Z",
+      "symbol": "NFLX",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 147,
+      "threshold": 358864.11000000004,
+      "message": "Trade max loss $147 is within available buying power $398737.90"
+    },
+    {
+      "id": "1788272559249_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-09-01T14:22:39.242Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 147,
+      "threshold": 4999.3545,
+      "message": "Trade max loss $147 is within single-position risk limit $4999.35"
+    },
+    {
+      "id": "1788272559242_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-09-01T14:22:39.242Z",
+      "symbol": "NFLX",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": false,
+      "value": 0.72,
+      "threshold": 0.8,
+      "message": "Confidence 72% below minimum required 80%"
+    },
+    {
+      "id": "1788272544284_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-09-01T14:22:24.224Z",
+      "symbol": "NFLX",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1100,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1100"
+    },
+    {
+      "id": "1788272544273_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-09-01T14:22:24.224Z",
+      "symbol": "NFLX",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 1155.45,
+      "threshold": 29996.046000000002,
+      "message": "Total exposure $1155.45 is within portfolio limit $29996.05"
+    },
+    {
+      "id": "1788272544257_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-09-01T14:22:24.224Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 1,
+      "threshold": 5,
+      "message": "Active positions count (1) is below maximum limit (5)"
+    },
+    {
+      "id": "1788272544243_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-09-01T14:22:24.224Z",
+      "symbol": "NFLX",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 147,
+      "threshold": 358863.42600000004,
+      "message": "Trade max loss $147 is within available buying power $398737.14"
+    },
+    {
+      "id": "1788272544231_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-09-01T14:22:24.224Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 147,
+      "threshold": 4999.341,
+      "message": "Trade max loss $147 is within single-position risk limit $4999.34"
+    },
+    {
+      "id": "1788272544224_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-09-01T14:22:24.224Z",
+      "symbol": "NFLX",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": false,
+      "value": 0.72,
+      "threshold": 0.8,
+      "message": "Confidence 72% below minimum required 80%"
+    },
+    {
+      "id": "1788272531847_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-09-01T14:22:11.701Z",
+      "symbol": "NFLX",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1100,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1100"
+    },
+    {
+      "id": "1788272531822_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-09-01T14:22:11.701Z",
+      "symbol": "NFLX",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 1155.1,
+      "threshold": 29995.941,
+      "message": "Total exposure $1155.10 is within portfolio limit $29995.94"
+    },
+    {
+      "id": "1788272531791_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-09-01T14:22:11.701Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 1,
+      "threshold": 5,
+      "message": "Active positions count (1) is below maximum limit (5)"
+    },
+    {
+      "id": "1788272531752_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-09-01T14:22:11.701Z",
+      "symbol": "NFLX",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 147,
+      "threshold": 358862.544,
+      "message": "Trade max loss $147 is within available buying power $398736.16"
+    },
+    {
+      "id": "1788272531730_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-09-01T14:22:11.701Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 147,
+      "threshold": 4999.3235,
+      "message": "Trade max loss $147 is within single-position risk limit $4999.32"
+    },
+    {
+      "id": "1788272531701_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-09-01T14:22:11.701Z",
+      "symbol": "NFLX",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": false,
+      "value": 0.72,
+      "threshold": 0.8,
+      "message": "Confidence 72% below minimum required 80%"
+    },
+    {
+      "id": "1788272461705_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-09-01T14:21:01.597Z",
+      "symbol": "NFLX",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1000,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1000"
+    },
+    {
+      "id": "1788272461676_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-09-01T14:21:01.597Z",
+      "symbol": "NFLX",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 1155.85,
+      "threshold": 29996.183999999997,
+      "message": "Total exposure $1155.85 is within portfolio limit $29996.18"
+    },
+    {
+      "id": "1788272461652_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-09-01T14:21:01.597Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 1,
+      "threshold": 5,
+      "message": "Active positions count (1) is below maximum limit (5)"
+    },
+    {
+      "id": "1788272461634_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-09-01T14:21:01.597Z",
+      "symbol": "NFLX",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 147,
+      "threshold": 358864.587,
+      "message": "Trade max loss $147 is within available buying power $398738.43"
+    },
+    {
+      "id": "1788272461606_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-09-01T14:21:01.597Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 147,
+      "threshold": 4999.3640000000005,
+      "message": "Trade max loss $147 is within single-position risk limit $4999.36"
+    },
+    {
+      "id": "1788272461597_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-09-01T14:21:01.597Z",
+      "symbol": "NFLX",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": true,
+      "value": 0.72,
+      "threshold": 0.7,
+      "message": "Confidence 72% meets threshold 70%"
+    },
+    {
+      "id": "1788272430468_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-09-01T14:20:30.421Z",
+      "symbol": "NFLX",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1000,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1000"
+    },
+    {
+      "id": "1788272430461_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-09-01T14:20:30.421Z",
+      "symbol": "NFLX",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 1156.05,
+      "threshold": 29996.226,
+      "message": "Total exposure $1156.05 is within portfolio limit $29996.23"
+    },
+    {
+      "id": "1788272430455_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-09-01T14:20:30.421Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 1,
+      "threshold": 5,
+      "message": "Active positions count (1) is below maximum limit (5)"
+    },
+    {
+      "id": "1788272430444_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-09-01T14:20:30.421Z",
+      "symbol": "NFLX",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 147,
+      "threshold": 358864.938,
+      "message": "Trade max loss $147 is within available buying power $398738.82"
+    },
+    {
+      "id": "1788272430434_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-09-01T14:20:30.421Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 147,
+      "threshold": 4999.371,
+      "message": "Trade max loss $147 is within single-position risk limit $4999.37"
+    },
+    {
+      "id": "1788272430421_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-09-01T14:20:30.421Z",
+      "symbol": "NFLX",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": true,
+      "value": 0.72,
+      "threshold": 0.7,
+      "message": "Confidence 72% meets threshold 70%"
+    },
+    {
+      "id": "1788272402593_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-09-01T14:20:02.544Z",
+      "symbol": "NFLX",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1000,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1000"
+    },
+    {
+      "id": "1788272402585_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-09-01T14:20:02.544Z",
+      "symbol": "NFLX",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 1155.54,
+      "threshold": 29996.073,
+      "message": "Total exposure $1155.54 is within portfolio limit $29996.07"
+    },
+    {
+      "id": "1788272402574_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-09-01T14:20:02.544Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 1,
+      "threshold": 5,
+      "message": "Active positions count (1) is below maximum limit (5)"
+    },
+    {
+      "id": "1788272402564_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-09-01T14:20:02.544Z",
+      "symbol": "NFLX",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 147,
+      "threshold": 358863.651,
+      "message": "Trade max loss $147 is within available buying power $398737.39"
+    },
+    {
+      "id": "1788272402555_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-09-01T14:20:02.544Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 147,
+      "threshold": 4999.3455,
+      "message": "Trade max loss $147 is within single-position risk limit $4999.35"
+    },
+    {
+      "id": "1788272402544_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-09-01T14:20:02.544Z",
+      "symbol": "NFLX",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": true,
+      "value": 0.72,
+      "threshold": 0.7,
+      "message": "Confidence 72% meets threshold 70%"
+    },
+    {
+      "id": "1788272342597_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-09-01T14:19:02.546Z",
+      "symbol": "NFLX",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1000,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1000"
+    },
+    {
+      "id": "1788272342585_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-09-01T14:19:02.546Z",
+      "symbol": "NFLX",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 1155.52,
+      "threshold": 29996.067,
+      "message": "Total exposure $1155.52 is within portfolio limit $29996.07"
+    },
+    {
+      "id": "1788272342576_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-09-01T14:19:02.546Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 1,
+      "threshold": 5,
+      "message": "Active positions count (1) is below maximum limit (5)"
+    },
+    {
+      "id": "1788272342564_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-09-01T14:19:02.546Z",
+      "symbol": "NFLX",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 147,
+      "threshold": 358863.606,
+      "message": "Trade max loss $147 is within available buying power $398737.34"
+    },
+    {
+      "id": "1788272342553_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-09-01T14:19:02.546Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 147,
+      "threshold": 4999.3445,
+      "message": "Trade max loss $147 is within single-position risk limit $4999.34"
+    },
+    {
+      "id": "1788272342546_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-09-01T14:19:02.546Z",
+      "symbol": "NFLX",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": true,
+      "value": 0.72,
+      "threshold": 0.7,
+      "message": "Confidence 72% meets threshold 70%"
+    },
+    {
+      "id": "1788272286691_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-09-01T14:18:06.643Z",
+      "symbol": "NFLX",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1000,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1000"
+    },
+    {
+      "id": "1788272286681_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-09-01T14:18:06.643Z",
+      "symbol": "NFLX",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 1156,
+      "threshold": 29996.210999999996,
+      "message": "Total exposure $1156.00 is within portfolio limit $29996.21"
+    },
+    {
+      "id": "1788272286672_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-09-01T14:18:06.643Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 1,
+      "threshold": 5,
+      "message": "Active positions count (1) is below maximum limit (5)"
+    },
+    {
+      "id": "1788272286662_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-09-01T14:18:06.643Z",
+      "symbol": "NFLX",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 147,
+      "threshold": 358864.812,
+      "message": "Trade max loss $147 is within available buying power $398738.68"
+    },
+    {
+      "id": "1788272286652_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-09-01T14:18:06.643Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 147,
+      "threshold": 4999.3685000000005,
+      "message": "Trade max loss $147 is within single-position risk limit $4999.37"
+    },
+    {
+      "id": "1788272286643_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-09-01T14:18:06.643Z",
+      "symbol": "NFLX",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": true,
+      "value": 0.72,
+      "threshold": 0.7,
+      "message": "Confidence 72% meets threshold 70%"
+    },
+    {
+      "id": "1788272221925_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-09-01T14:17:01.884Z",
+      "symbol": "NFLX",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1000,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1000"
+    },
+    {
+      "id": "1788272221916_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-09-01T14:17:01.884Z",
+      "symbol": "NFLX",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 1155.78,
+      "threshold": 29996.144999999997,
+      "message": "Total exposure $1155.78 is within portfolio limit $29996.14"
+    },
+    {
+      "id": "1788272221909_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-09-01T14:17:01.884Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 1,
+      "threshold": 5,
+      "message": "Active positions count (1) is below maximum limit (5)"
+    },
+    {
+      "id": "1788272221900_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-09-01T14:17:01.884Z",
+      "symbol": "NFLX",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 147,
+      "threshold": 358864.254,
+      "message": "Trade max loss $147 is within available buying power $398738.06"
+    },
+    {
+      "id": "1788272221892_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-09-01T14:17:01.884Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 147,
+      "threshold": 4999.3575,
+      "message": "Trade max loss $147 is within single-position risk limit $4999.36"
+    },
+    {
+      "id": "1788272221884_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-09-01T14:17:01.884Z",
+      "symbol": "NFLX",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": true,
+      "value": 0.72,
+      "threshold": 0.7,
+      "message": "Confidence 72% meets threshold 70%"
+    },
+    {
+      "id": "1788272163393_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-09-01T14:16:03.347Z",
+      "symbol": "NFLX",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1000,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1000"
+    },
+    {
+      "id": "1788272163381_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-09-01T14:16:03.347Z",
+      "symbol": "NFLX",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 1153.8400000000001,
+      "threshold": 29995.863,
+      "message": "Total exposure $1153.84 is within portfolio limit $29995.86"
+    },
+    {
+      "id": "1788272163373_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-09-01T14:16:03.347Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 1,
+      "threshold": 5,
+      "message": "Active positions count (1) is below maximum limit (5)"
+    },
+    {
+      "id": "1788272163363_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-09-01T14:16:03.347Z",
+      "symbol": "NFLX",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 146,
+      "threshold": 358861.887,
+      "message": "Trade max loss $146 is within available buying power $398735.43"
+    },
+    {
+      "id": "1788272163354_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-09-01T14:16:03.347Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 146,
+      "threshold": 4999.3105000000005,
+      "message": "Trade max loss $146 is within single-position risk limit $4999.31"
+    },
+    {
+      "id": "1788272163347_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-09-01T14:16:03.347Z",
+      "symbol": "NFLX",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": true,
+      "value": 0.72,
+      "threshold": 0.7,
+      "message": "Confidence 72% meets threshold 70%"
+    },
+    {
+      "id": "1788272103483_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-09-01T14:15:03.440Z",
+      "symbol": "NFLX",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1000,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1000"
+    },
+    {
+      "id": "1788272103476_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-09-01T14:15:03.440Z",
+      "symbol": "NFLX",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 1153.58,
+      "threshold": 29995.784999999996,
+      "message": "Total exposure $1153.58 is within portfolio limit $29995.78"
+    },
+    {
+      "id": "1788272103468_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-09-01T14:15:03.440Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 1,
+      "threshold": 5,
+      "message": "Active positions count (1) is below maximum limit (5)"
+    },
+    {
+      "id": "1788272103460_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-09-01T14:15:03.440Z",
+      "symbol": "NFLX",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 146,
+      "threshold": 358861.23000000004,
+      "message": "Trade max loss $146 is within available buying power $398734.70"
+    },
+    {
+      "id": "1788272103450_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-09-01T14:15:03.440Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 146,
+      "threshold": 4999.297500000001,
+      "message": "Trade max loss $146 is within single-position risk limit $4999.30"
+    },
+    {
+      "id": "1788272103440_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-09-01T14:15:03.440Z",
+      "symbol": "NFLX",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": true,
+      "value": 0.72,
+      "threshold": 0.7,
+      "message": "Confidence 72% meets threshold 70%"
+    },
+    {
+      "id": "1788272045989_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-09-01T14:14:05.940Z",
+      "symbol": "NFLX",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1000,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1000"
+    },
+    {
+      "id": "1788272045978_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-09-01T14:14:05.940Z",
+      "symbol": "NFLX",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 1153.7,
+      "threshold": 29995.839,
+      "message": "Total exposure $1153.70 is within portfolio limit $29995.84"
+    },
+    {
+      "id": "1788272045968_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-09-01T14:14:05.940Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 1,
+      "threshold": 5,
+      "message": "Active positions count (1) is below maximum limit (5)"
+    },
+    {
+      "id": "1788272045957_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-09-01T14:14:05.940Z",
+      "symbol": "NFLX",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 146,
+      "threshold": 358861.689,
+      "message": "Trade max loss $146 is within available buying power $398735.21"
+    },
+    {
+      "id": "1788272045949_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-09-01T14:14:05.940Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 146,
+      "threshold": 4999.306500000001,
+      "message": "Trade max loss $146 is within single-position risk limit $4999.31"
+    },
+    {
+      "id": "1788272045940_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-09-01T14:14:05.940Z",
+      "symbol": "NFLX",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": true,
+      "value": 0.72,
+      "threshold": 0.7,
+      "message": "Confidence 72% meets threshold 70%"
+    },
+    {
+      "id": "1788271985068_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-09-01T14:13:05.023Z",
+      "symbol": "NFLX",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1000,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1000"
+    },
+    {
+      "id": "1788271985058_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-09-01T14:13:05.023Z",
+      "symbol": "NFLX",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 1153.69,
+      "threshold": 29995.835999999996,
+      "message": "Total exposure $1153.69 is within portfolio limit $29995.84"
+    },
+    {
+      "id": "1788271985050_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-09-01T14:13:05.023Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 1,
+      "threshold": 5,
+      "message": "Active positions count (1) is below maximum limit (5)"
+    },
+    {
+      "id": "1788271985040_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-09-01T14:13:05.023Z",
+      "symbol": "NFLX",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 146,
+      "threshold": 358861.662,
+      "message": "Trade max loss $146 is within available buying power $398735.18"
+    },
+    {
+      "id": "1788271985033_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-09-01T14:13:05.023Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 146,
+      "threshold": 4999.3060000000005,
+      "message": "Trade max loss $146 is within single-position risk limit $4999.31"
+    },
+    {
+      "id": "1788271985023_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-09-01T14:13:05.023Z",
+      "symbol": "NFLX",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": true,
+      "value": 0.72,
+      "threshold": 0.7,
+      "message": "Confidence 72% meets threshold 70%"
+    },
+    {
+      "id": "1788271922563_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-09-01T14:12:02.516Z",
+      "symbol": "NFLX",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1000,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1000"
+    },
+    {
+      "id": "1788271922553_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-09-01T14:12:02.516Z",
+      "symbol": "NFLX",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 1154.24,
+      "threshold": 29995.943999999996,
+      "message": "Total exposure $1154.24 is within portfolio limit $29995.94"
+    },
+    {
+      "id": "1788271922543_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-09-01T14:12:02.516Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 1,
+      "threshold": 5,
+      "message": "Active positions count (1) is below maximum limit (5)"
+    },
+    {
+      "id": "1788271922534_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-09-01T14:12:02.516Z",
+      "symbol": "NFLX",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 146,
+      "threshold": 358862.571,
+      "message": "Trade max loss $146 is within available buying power $398736.19"
+    },
+    {
+      "id": "1788271922523_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-09-01T14:12:02.516Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 146,
+      "threshold": 4999.3240000000005,
+      "message": "Trade max loss $146 is within single-position risk limit $4999.32"
+    },
+    {
+      "id": "1788271922516_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-09-01T14:12:02.516Z",
+      "symbol": "NFLX",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": true,
+      "value": 0.72,
+      "threshold": 0.7,
+      "message": "Confidence 72% meets threshold 70%"
+    },
+    {
+      "id": "1788271865496_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-09-01T14:11:05.456Z",
+      "symbol": "BAC",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1000,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1000"
+    },
+    {
+      "id": "1788271865487_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-09-01T14:11:05.456Z",
+      "symbol": "BAC",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 1119.9,
+      "threshold": 29995.881,
+      "message": "Total exposure $1119.90 is within portfolio limit $29995.88"
+    },
+    {
+      "id": "1788271865479_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-09-01T14:11:05.456Z",
+      "symbol": "BAC",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 1,
+      "threshold": 5,
+      "message": "Active positions count (1) is below maximum limit (5)"
+    },
+    {
+      "id": "1788271865470_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-09-01T14:11:05.456Z",
+      "symbol": "BAC",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 112,
+      "threshold": 358862.04,
+      "message": "Trade max loss $112 is within available buying power $398735.60"
+    },
+    {
+      "id": "1788271865464_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-09-01T14:11:05.456Z",
+      "symbol": "BAC",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 112,
+      "threshold": 4999.3135,
+      "message": "Trade max loss $112 is within single-position risk limit $4999.31"
+    },
+    {
+      "id": "1788271865456_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-09-01T14:11:05.456Z",
+      "symbol": "BAC",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": true,
+      "value": 0.72,
+      "threshold": 0.7,
+      "message": "Confidence 72% meets threshold 70%"
+    },
+    {
+      "id": "1788271803142_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-09-01T14:10:03.096Z",
+      "symbol": "NFLX",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1000,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1000"
+    },
+    {
+      "id": "1788271803133_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-09-01T14:10:03.096Z",
+      "symbol": "NFLX",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 1153.83,
+      "threshold": 29995.859999999997,
+      "message": "Total exposure $1153.83 is within portfolio limit $29995.86"
+    },
+    {
+      "id": "1788271803124_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-09-01T14:10:03.096Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 1,
+      "threshold": 5,
+      "message": "Active positions count (1) is below maximum limit (5)"
+    },
+    {
+      "id": "1788271803113_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-09-01T14:10:03.096Z",
+      "symbol": "NFLX",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 146,
+      "threshold": 358861.86000000004,
+      "message": "Trade max loss $146 is within available buying power $398735.40"
+    },
+    {
+      "id": "1788271803104_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-09-01T14:10:03.096Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 146,
+      "threshold": 4999.31,
+      "message": "Trade max loss $146 is within single-position risk limit $4999.31"
+    },
+    {
+      "id": "1788271803096_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-09-01T14:10:03.096Z",
+      "symbol": "NFLX",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": true,
+      "value": 0.72,
+      "threshold": 0.7,
+      "message": "Confidence 72% meets threshold 70%"
+    },
+    {
+      "id": "1788271741955_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-09-01T14:09:01.894Z",
+      "symbol": "NFLX",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1000,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1000"
+    },
+    {
+      "id": "1788271741942_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-09-01T14:09:01.894Z",
+      "symbol": "NFLX",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 1153.3600000000001,
+      "threshold": 29995.718999999997,
+      "message": "Total exposure $1153.36 is within portfolio limit $29995.72"
+    },
+    {
+      "id": "1788271741933_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-09-01T14:09:01.894Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 1,
+      "threshold": 5,
+      "message": "Active positions count (1) is below maximum limit (5)"
+    },
+    {
+      "id": "1788271741915_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-09-01T14:09:01.894Z",
+      "symbol": "NFLX",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 146,
+      "threshold": 358860.68100000004,
+      "message": "Trade max loss $146 is within available buying power $398734.09"
+    },
+    {
+      "id": "1788271741906_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-09-01T14:09:01.894Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 146,
+      "threshold": 4999.2865,
+      "message": "Trade max loss $146 is within single-position risk limit $4999.29"
+    },
+    {
+      "id": "1788271741894_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-09-01T14:09:01.894Z",
+      "symbol": "NFLX",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": true,
+      "value": 0.72,
+      "threshold": 0.7,
+      "message": "Confidence 72% meets threshold 70%"
+    },
+    {
+      "id": "1788271741086_DAILY_LOSS_CIRCUIT_BREAKER",
+      "timestamp": "2026-09-01T14:09:01.041Z",
+      "symbol": "NFLX",
+      "gate_name": "DAILY_LOSS_CIRCUIT_BREAKER",
+      "passed": true,
+      "value": 0,
+      "threshold": -1000,
+      "message": "Today P&L ($0.00) is clear of daily loss limit -$1000"
+    },
+    {
+      "id": "1788271741076_PORTFOLIO_EXPOSURE_LIMIT",
+      "timestamp": "2026-09-01T14:09:01.041Z",
+      "symbol": "NFLX",
+      "gate_name": "PORTFOLIO_EXPOSURE_LIMIT",
+      "passed": true,
+      "value": 1153.4099999999999,
+      "threshold": 29995.733999999997,
+      "message": "Total exposure $1153.41 is within portfolio limit $29995.73"
+    },
+    {
+      "id": "1788271741066_MAX_OPEN_POSITIONS_LIMIT",
+      "timestamp": "2026-09-01T14:09:01.041Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_OPEN_POSITIONS_LIMIT",
+      "passed": true,
+      "value": 1,
+      "threshold": 5,
+      "message": "Active positions count (1) is below maximum limit (5)"
+    },
+    {
+      "id": "1788271741058_BUYING_POWER_AVAILABLE",
+      "timestamp": "2026-09-01T14:09:01.041Z",
+      "symbol": "NFLX",
+      "gate_name": "BUYING_POWER_AVAILABLE",
+      "passed": true,
+      "value": 146,
+      "threshold": 358860.807,
+      "message": "Trade max loss $146 is within available buying power $398734.23"
+    },
+    {
+      "id": "1788271741047_MAX_POSITION_RISK_LIMIT",
+      "timestamp": "2026-09-01T14:09:01.041Z",
+      "symbol": "NFLX",
+      "gate_name": "MAX_POSITION_RISK_LIMIT",
+      "passed": true,
+      "value": 146,
+      "threshold": 4999.289000000001,
+      "message": "Trade max loss $146 is within single-position risk limit $4999.29"
+    },
+    {
+      "id": "1788271741041_AI_CONFIDENCE_THRESHOLD",
+      "timestamp": "2026-09-01T14:09:01.041Z",
+      "symbol": "NFLX",
+      "gate_name": "AI_CONFIDENCE_THRESHOLD",
+      "passed": true,
+      "value": 0.72,
+      "threshold": 0.7,
+      "message": "Confidence 72% meets threshold 70%"
+    },
     {
       "id": "1788195388575_DAILY_LOSS_CIRCUIT_BREAKER",
       "timestamp": "2026-08-31T16:56:28.492Z",
@@ -982,6 +3352,790 @@
     }
   ],
   "audit_trail": [
+    {
+      "id": "cycle_1788272875446_risk",
+      "timestamp": "2026-09-01T14:28:05.119Z",
+      "cycle_id": "cycle_1788272875446",
+      "stage": "RISK_GATE_CHECK",
+      "detail": "Risk Engine Result: OVERRIDDEN (Confidence 72% below minimum required 80%)"
+    },
+    {
+      "id": "cycle_1788272875446_ai",
+      "timestamp": "2026-09-01T14:28:05.047Z",
+      "cycle_id": "cycle_1788272875446",
+      "stage": "AI_DECISION",
+      "detail": "AI generated proposal: BULL_CALL_SPREAD on NFLX with 72% confidence"
+    },
+    {
+      "id": "cycle_1788272875446_scan",
+      "timestamp": "2026-09-01T14:28:04.244Z",
+      "cycle_id": "cycle_1788272875446",
+      "stage": "OPPORTUNITY_DISCOVERED",
+      "detail": "Discovered top candidate NFLX (Score: 0.63, Direction: BULLISH)"
+    },
+    {
+      "id": "cycle_1788272875446_start",
+      "timestamp": "2026-09-01T14:27:55.446Z",
+      "cycle_id": "cycle_1788272875446",
+      "stage": "CYCLE_START",
+      "detail": "Autonomous cycle #24 initiated"
+    },
+    {
+      "id": "cycle_1788272815447_risk",
+      "timestamp": "2026-09-01T14:27:09.976Z",
+      "cycle_id": "cycle_1788272815447",
+      "stage": "RISK_GATE_CHECK",
+      "detail": "Risk Engine Result: OVERRIDDEN (Confidence 72% below minimum required 80%)"
+    },
+    {
+      "id": "cycle_1788272815447_ai",
+      "timestamp": "2026-09-01T14:27:09.903Z",
+      "cycle_id": "cycle_1788272815447",
+      "stage": "AI_DECISION",
+      "detail": "AI generated proposal: BULL_CALL_SPREAD on NFLX with 72% confidence"
+    },
+    {
+      "id": "cycle_1788272815447_scan",
+      "timestamp": "2026-09-01T14:27:08.546Z",
+      "cycle_id": "cycle_1788272815447",
+      "stage": "OPPORTUNITY_DISCOVERED",
+      "detail": "Discovered top candidate NFLX (Score: 0.62, Direction: BULLISH)"
+    },
+    {
+      "id": "cycle_1788272815447_start",
+      "timestamp": "2026-09-01T14:26:55.447Z",
+      "cycle_id": "cycle_1788272815447",
+      "stage": "CYCLE_START",
+      "detail": "Autonomous cycle #23 initiated"
+    },
+    {
+      "id": "cycle_1788272755445_risk",
+      "timestamp": "2026-09-01T14:26:01.966Z",
+      "cycle_id": "cycle_1788272755445",
+      "stage": "RISK_GATE_CHECK",
+      "detail": "Risk Engine Result: OVERRIDDEN (Confidence 72% below minimum required 80%)"
+    },
+    {
+      "id": "cycle_1788272755445_ai",
+      "timestamp": "2026-09-01T14:26:01.895Z",
+      "cycle_id": "cycle_1788272755445",
+      "stage": "AI_DECISION",
+      "detail": "AI generated proposal: BULL_CALL_SPREAD on NFLX with 72% confidence"
+    },
+    {
+      "id": "cycle_1788272755445_scan",
+      "timestamp": "2026-09-01T14:26:01.181Z",
+      "cycle_id": "cycle_1788272755445",
+      "stage": "OPPORTUNITY_DISCOVERED",
+      "detail": "Discovered top candidate NFLX (Score: 0.62, Direction: BULLISH)"
+    },
+    {
+      "id": "cycle_1788272755445_start",
+      "timestamp": "2026-09-01T14:25:55.445Z",
+      "cycle_id": "cycle_1788272755445",
+      "stage": "CYCLE_START",
+      "detail": "Autonomous cycle #22 initiated"
+    },
+    {
+      "id": "cycle_1788272695439_risk",
+      "timestamp": "2026-09-01T14:25:03.941Z",
+      "cycle_id": "cycle_1788272695439",
+      "stage": "RISK_GATE_CHECK",
+      "detail": "Risk Engine Result: OVERRIDDEN (Confidence 72% below minimum required 80%)"
+    },
+    {
+      "id": "cycle_1788272695439_ai",
+      "timestamp": "2026-09-01T14:25:03.884Z",
+      "cycle_id": "cycle_1788272695439",
+      "stage": "AI_DECISION",
+      "detail": "AI generated proposal: BULL_CALL_SPREAD on NFLX with 72% confidence"
+    },
+    {
+      "id": "cycle_1788272695439_scan",
+      "timestamp": "2026-09-01T14:25:02.084Z",
+      "cycle_id": "cycle_1788272695439",
+      "stage": "OPPORTUNITY_DISCOVERED",
+      "detail": "Discovered top candidate NFLX (Score: 0.62, Direction: BULLISH)"
+    },
+    {
+      "id": "cycle_1788272695439_start",
+      "timestamp": "2026-09-01T14:24:55.439Z",
+      "cycle_id": "cycle_1788272695439",
+      "stage": "CYCLE_START",
+      "detail": "Autonomous cycle #21 initiated"
+    },
+    {
+      "id": "cycle_1788272635423_risk",
+      "timestamp": "2026-09-01T14:24:01.799Z",
+      "cycle_id": "cycle_1788272635423",
+      "stage": "RISK_GATE_CHECK",
+      "detail": "Risk Engine Result: OVERRIDDEN (Confidence 72% below minimum required 80%)"
+    },
+    {
+      "id": "cycle_1788272635423_ai",
+      "timestamp": "2026-09-01T14:24:01.746Z",
+      "cycle_id": "cycle_1788272635423",
+      "stage": "AI_DECISION",
+      "detail": "AI generated proposal: BULL_CALL_SPREAD on NFLX with 72% confidence"
+    },
+    {
+      "id": "cycle_1788272635423_scan",
+      "timestamp": "2026-09-01T14:24:00.570Z",
+      "cycle_id": "cycle_1788272635423",
+      "stage": "OPPORTUNITY_DISCOVERED",
+      "detail": "Discovered top candidate NFLX (Score: 0.61, Direction: BULLISH)"
+    },
+    {
+      "id": "cycle_1788272635423_start",
+      "timestamp": "2026-09-01T14:23:55.423Z",
+      "cycle_id": "cycle_1788272635423",
+      "stage": "CYCLE_START",
+      "detail": "Autonomous cycle #20 initiated"
+    },
+    {
+      "id": "cycle_1788272575420_risk",
+      "timestamp": "2026-09-01T14:23:03.085Z",
+      "cycle_id": "cycle_1788272575420",
+      "stage": "RISK_GATE_CHECK",
+      "detail": "Risk Engine Result: OVERRIDDEN (Confidence 72% below minimum required 80%)"
+    },
+    {
+      "id": "cycle_1788272575420_ai",
+      "timestamp": "2026-09-01T14:23:02.906Z",
+      "cycle_id": "cycle_1788272575420",
+      "stage": "AI_DECISION",
+      "detail": "AI generated proposal: BULL_CALL_SPREAD on BAC with 72% confidence"
+    },
+    {
+      "id": "cycle_1788272575420_scan",
+      "timestamp": "2026-09-01T14:23:02.063Z",
+      "cycle_id": "cycle_1788272575420",
+      "stage": "OPPORTUNITY_DISCOVERED",
+      "detail": "Discovered top candidate BAC (Score: 0.48, Direction: NEUTRAL)"
+    },
+    {
+      "id": "cycle_1788272575420_start",
+      "timestamp": "2026-09-01T14:22:55.420Z",
+      "cycle_id": "cycle_1788272575420",
+      "stage": "CYCLE_START",
+      "detail": "Autonomous cycle #19 initiated"
+    },
+    {
+      "id": "cycle_1788272549561_risk",
+      "timestamp": "2026-09-01T14:22:39.316Z",
+      "cycle_id": "cycle_1788272549561",
+      "stage": "RISK_GATE_CHECK",
+      "detail": "Risk Engine Result: OVERRIDDEN (Confidence 72% below minimum required 80%)"
+    },
+    {
+      "id": "cycle_1788272549561_ai",
+      "timestamp": "2026-09-01T14:22:39.218Z",
+      "cycle_id": "cycle_1788272549561",
+      "stage": "AI_DECISION",
+      "detail": "AI generated proposal: BULL_CALL_SPREAD on NFLX with 72% confidence"
+    },
+    {
+      "id": "cycle_1788272549561_scan",
+      "timestamp": "2026-09-01T14:22:38.401Z",
+      "cycle_id": "cycle_1788272549561",
+      "stage": "OPPORTUNITY_DISCOVERED",
+      "detail": "Discovered top candidate NFLX (Score: 0.59, Direction: BULLISH)"
+    },
+    {
+      "id": "cycle_1788272549561_start",
+      "timestamp": "2026-09-01T14:22:29.561Z",
+      "cycle_id": "cycle_1788272549561",
+      "stage": "CYCLE_START",
+      "detail": "Autonomous cycle #18 initiated"
+    },
+    {
+      "id": "cycle_1788272531444_risk",
+      "timestamp": "2026-09-01T14:22:24.311Z",
+      "cycle_id": "cycle_1788272531444",
+      "stage": "RISK_GATE_CHECK",
+      "detail": "Risk Engine Result: OVERRIDDEN (Confidence 72% below minimum required 80%)"
+    },
+    {
+      "id": "cycle_1788272531444_ai",
+      "timestamp": "2026-09-01T14:22:24.204Z",
+      "cycle_id": "cycle_1788272531444",
+      "stage": "AI_DECISION",
+      "detail": "AI generated proposal: BULL_CALL_SPREAD on NFLX with 72% confidence"
+    },
+    {
+      "id": "cycle_1788272531444_scan",
+      "timestamp": "2026-09-01T14:22:23.163Z",
+      "cycle_id": "cycle_1788272531444",
+      "stage": "OPPORTUNITY_DISCOVERED",
+      "detail": "Discovered top candidate NFLX (Score: 0.6, Direction: BULLISH)"
+    },
+    {
+      "id": "cycle_1788272520306_risk",
+      "timestamp": "2026-09-01T14:22:11.900Z",
+      "cycle_id": "cycle_1788272520306",
+      "stage": "RISK_GATE_CHECK",
+      "detail": "Risk Engine Result: OVERRIDDEN (Confidence 72% below minimum required 80%)"
+    },
+    {
+      "id": "cycle_1788272520306_ai",
+      "timestamp": "2026-09-01T14:22:11.600Z",
+      "cycle_id": "cycle_1788272520306",
+      "stage": "AI_DECISION",
+      "detail": "AI generated proposal: BULL_CALL_SPREAD on NFLX with 72% confidence"
+    },
+    {
+      "id": "cycle_1788272531444_start",
+      "timestamp": "2026-09-01T14:22:11.444Z",
+      "cycle_id": "cycle_1788272531444",
+      "stage": "CYCLE_START",
+      "detail": "Autonomous cycle #17 initiated"
+    },
+    {
+      "id": "cycle_1788272520306_scan",
+      "timestamp": "2026-09-01T14:22:09.827Z",
+      "cycle_id": "cycle_1788272520306",
+      "stage": "OPPORTUNITY_DISCOVERED",
+      "detail": "Discovered top candidate NFLX (Score: 0.6, Direction: BULLISH)"
+    },
+    {
+      "id": "cycle_1788272520306_start",
+      "timestamp": "2026-09-01T14:22:00.306Z",
+      "cycle_id": "cycle_1788272520306",
+      "stage": "CYCLE_START",
+      "detail": "Autonomous cycle #16 initiated"
+    },
+    {
+      "id": "cycle_1788272455417_exec",
+      "timestamp": "2026-09-01T14:21:02.631Z",
+      "cycle_id": "cycle_1788272455417",
+      "stage": "ORDER_EXECUTION",
+      "detail": "Execution Result: FILLED -> Order submitted in paper execution mode (NFLX BULL_CALL_SPREAD)"
+    },
+    {
+      "id": "cycle_1788272455417_risk",
+      "timestamp": "2026-09-01T14:21:01.752Z",
+      "cycle_id": "cycle_1788272455417",
+      "stage": "RISK_GATE_CHECK",
+      "detail": "Risk Engine Result: PASSED"
+    },
+    {
+      "id": "cycle_1788272455417_ai",
+      "timestamp": "2026-09-01T14:21:01.565Z",
+      "cycle_id": "cycle_1788272455417",
+      "stage": "AI_DECISION",
+      "detail": "AI generated proposal: BULL_CALL_SPREAD on NFLX with 72% confidence"
+    },
+    {
+      "id": "cycle_1788272455417_scan",
+      "timestamp": "2026-09-01T14:21:00.846Z",
+      "cycle_id": "cycle_1788272455417",
+      "stage": "OPPORTUNITY_DISCOVERED",
+      "detail": "Discovered top candidate NFLX (Score: 0.59, Direction: BULLISH)"
+    },
+    {
+      "id": "cycle_1788272455417_start",
+      "timestamp": "2026-09-01T14:20:55.417Z",
+      "cycle_id": "cycle_1788272455417",
+      "stage": "CYCLE_START",
+      "detail": "Autonomous cycle #15 initiated"
+    },
+    {
+      "id": "cycle_1788272419742_exec",
+      "timestamp": "2026-09-01T14:20:31.253Z",
+      "cycle_id": "cycle_1788272419742",
+      "stage": "ORDER_EXECUTION",
+      "detail": "Execution Result: FILLED -> Order submitted in paper execution mode (NFLX BULL_CALL_SPREAD)"
+    },
+    {
+      "id": "cycle_1788272419742_risk",
+      "timestamp": "2026-09-01T14:20:30.483Z",
+      "cycle_id": "cycle_1788272419742",
+      "stage": "RISK_GATE_CHECK",
+      "detail": "Risk Engine Result: PASSED"
+    },
+    {
+      "id": "cycle_1788272419742_ai",
+      "timestamp": "2026-09-01T14:20:30.397Z",
+      "cycle_id": "cycle_1788272419742",
+      "stage": "AI_DECISION",
+      "detail": "AI generated proposal: BULL_CALL_SPREAD on NFLX with 72% confidence"
+    },
+    {
+      "id": "cycle_1788272419742_scan",
+      "timestamp": "2026-09-01T14:20:29.020Z",
+      "cycle_id": "cycle_1788272419742",
+      "stage": "OPPORTUNITY_DISCOVERED",
+      "detail": "Discovered top candidate NFLX (Score: 0.59, Direction: BULLISH)"
+    },
+    {
+      "id": "cycle_1788272419742_start",
+      "timestamp": "2026-09-01T14:20:19.742Z",
+      "cycle_id": "cycle_1788272419742",
+      "stage": "CYCLE_START",
+      "detail": "Autonomous cycle #14 initiated"
+    },
+    {
+      "id": "cycle_1788272395415_exec",
+      "timestamp": "2026-09-01T14:20:02.897Z",
+      "cycle_id": "cycle_1788272395415",
+      "stage": "ORDER_EXECUTION",
+      "detail": "Execution Result: FILLED -> Order submitted in paper execution mode (NFLX BULL_CALL_SPREAD)"
+    },
+    {
+      "id": "cycle_1788272395415_risk",
+      "timestamp": "2026-09-01T14:20:02.611Z",
+      "cycle_id": "cycle_1788272395415",
+      "stage": "RISK_GATE_CHECK",
+      "detail": "Risk Engine Result: PASSED"
+    },
+    {
+      "id": "cycle_1788272395415_ai",
+      "timestamp": "2026-09-01T14:20:02.524Z",
+      "cycle_id": "cycle_1788272395415",
+      "stage": "AI_DECISION",
+      "detail": "AI generated proposal: BULL_CALL_SPREAD on NFLX with 72% confidence"
+    },
+    {
+      "id": "cycle_1788272395415_scan",
+      "timestamp": "2026-09-01T14:20:01.342Z",
+      "cycle_id": "cycle_1788272395415",
+      "stage": "OPPORTUNITY_DISCOVERED",
+      "detail": "Discovered top candidate NFLX (Score: 0.59, Direction: BULLISH)"
+    },
+    {
+      "id": "cycle_1788272395415_start",
+      "timestamp": "2026-09-01T14:19:55.415Z",
+      "cycle_id": "cycle_1788272395415",
+      "stage": "CYCLE_START",
+      "detail": "Autonomous cycle #13 initiated"
+    },
+    {
+      "id": "cycle_1788272335406_exec",
+      "timestamp": "2026-09-01T14:19:02.895Z",
+      "cycle_id": "cycle_1788272335406",
+      "stage": "ORDER_EXECUTION",
+      "detail": "Execution Result: FILLED -> Order submitted in paper execution mode (NFLX BULL_CALL_SPREAD)"
+    },
+    {
+      "id": "cycle_1788272335406_risk",
+      "timestamp": "2026-09-01T14:19:02.623Z",
+      "cycle_id": "cycle_1788272335406",
+      "stage": "RISK_GATE_CHECK",
+      "detail": "Risk Engine Result: PASSED"
+    },
+    {
+      "id": "cycle_1788272335406_ai",
+      "timestamp": "2026-09-01T14:19:02.530Z",
+      "cycle_id": "cycle_1788272335406",
+      "stage": "AI_DECISION",
+      "detail": "AI generated proposal: BULL_CALL_SPREAD on NFLX with 72% confidence"
+    },
+    {
+      "id": "cycle_1788272335406_scan",
+      "timestamp": "2026-09-01T14:19:01.027Z",
+      "cycle_id": "cycle_1788272335406",
+      "stage": "OPPORTUNITY_DISCOVERED",
+      "detail": "Discovered top candidate NFLX (Score: 0.58, Direction: BULLISH)"
+    },
+    {
+      "id": "cycle_1788272335406_start",
+      "timestamp": "2026-09-01T14:18:55.406Z",
+      "cycle_id": "cycle_1788272335406",
+      "stage": "CYCLE_START",
+      "detail": "Autonomous cycle #12 initiated"
+    },
+    {
+      "id": "cycle_1788272275405_exec",
+      "timestamp": "2026-09-01T14:18:07.428Z",
+      "cycle_id": "cycle_1788272275405",
+      "stage": "ORDER_EXECUTION",
+      "detail": "Execution Result: FILLED -> Order submitted in paper execution mode (NFLX BULL_CALL_SPREAD)"
+    },
+    {
+      "id": "cycle_1788272275405_risk",
+      "timestamp": "2026-09-01T14:18:06.710Z",
+      "cycle_id": "cycle_1788272275405",
+      "stage": "RISK_GATE_CHECK",
+      "detail": "Risk Engine Result: PASSED"
+    },
+    {
+      "id": "cycle_1788272275405_ai",
+      "timestamp": "2026-09-01T14:18:06.621Z",
+      "cycle_id": "cycle_1788272275405",
+      "stage": "AI_DECISION",
+      "detail": "AI generated proposal: BULL_CALL_SPREAD on NFLX with 72% confidence"
+    },
+    {
+      "id": "cycle_1788272275405_scan",
+      "timestamp": "2026-09-01T14:18:05.030Z",
+      "cycle_id": "cycle_1788272275405",
+      "stage": "OPPORTUNITY_DISCOVERED",
+      "detail": "Discovered top candidate NFLX (Score: 0.58, Direction: BULLISH)"
+    },
+    {
+      "id": "cycle_1788272275405_start",
+      "timestamp": "2026-09-01T14:17:55.405Z",
+      "cycle_id": "cycle_1788272275405",
+      "stage": "CYCLE_START",
+      "detail": "Autonomous cycle #11 initiated"
+    },
+    {
+      "id": "cycle_1788272215400_exec",
+      "timestamp": "2026-09-01T14:17:02.835Z",
+      "cycle_id": "cycle_1788272215400",
+      "stage": "ORDER_EXECUTION",
+      "detail": "Execution Result: FILLED -> Order submitted in paper execution mode (NFLX BULL_CALL_SPREAD)"
+    },
+    {
+      "id": "cycle_1788272215400_risk",
+      "timestamp": "2026-09-01T14:17:01.941Z",
+      "cycle_id": "cycle_1788272215400",
+      "stage": "RISK_GATE_CHECK",
+      "detail": "Risk Engine Result: PASSED"
+    },
+    {
+      "id": "cycle_1788272215400_ai",
+      "timestamp": "2026-09-01T14:17:01.865Z",
+      "cycle_id": "cycle_1788272215400",
+      "stage": "AI_DECISION",
+      "detail": "AI generated proposal: BULL_CALL_SPREAD on NFLX with 72% confidence"
+    },
+    {
+      "id": "cycle_1788272215400_scan",
+      "timestamp": "2026-09-01T14:17:01.189Z",
+      "cycle_id": "cycle_1788272215400",
+      "stage": "OPPORTUNITY_DISCOVERED",
+      "detail": "Discovered top candidate NFLX (Score: 0.57, Direction: BULLISH)"
+    },
+    {
+      "id": "cycle_1788272215400_start",
+      "timestamp": "2026-09-01T14:16:55.400Z",
+      "cycle_id": "cycle_1788272215400",
+      "stage": "CYCLE_START",
+      "detail": "Autonomous cycle #10 initiated"
+    },
+    {
+      "id": "cycle_1788272155392_exec",
+      "timestamp": "2026-09-01T14:16:04.164Z",
+      "cycle_id": "cycle_1788272155392",
+      "stage": "ORDER_EXECUTION",
+      "detail": "Execution Result: FILLED -> Order submitted in paper execution mode (NFLX BULL_CALL_SPREAD)"
+    },
+    {
+      "id": "cycle_1788272155392_risk",
+      "timestamp": "2026-09-01T14:16:03.430Z",
+      "cycle_id": "cycle_1788272155392",
+      "stage": "RISK_GATE_CHECK",
+      "detail": "Risk Engine Result: PASSED"
+    },
+    {
+      "id": "cycle_1788272155392_ai",
+      "timestamp": "2026-09-01T14:16:03.328Z",
+      "cycle_id": "cycle_1788272155392",
+      "stage": "AI_DECISION",
+      "detail": "AI generated proposal: BULL_CALL_SPREAD on NFLX with 72% confidence"
+    },
+    {
+      "id": "cycle_1788272155392_scan",
+      "timestamp": "2026-09-01T14:16:02.326Z",
+      "cycle_id": "cycle_1788272155392",
+      "stage": "OPPORTUNITY_DISCOVERED",
+      "detail": "Discovered top candidate NFLX (Score: 0.55, Direction: BULLISH)"
+    },
+    {
+      "id": "cycle_1788272155392_start",
+      "timestamp": "2026-09-01T14:15:55.392Z",
+      "cycle_id": "cycle_1788272155392",
+      "stage": "CYCLE_START",
+      "detail": "Autonomous cycle #9 initiated"
+    },
+    {
+      "id": "cycle_1788272095387_exec",
+      "timestamp": "2026-09-01T14:15:05.190Z",
+      "cycle_id": "cycle_1788272095387",
+      "stage": "ORDER_EXECUTION",
+      "detail": "Execution Result: FILLED -> Order submitted in paper execution mode (NFLX BULL_CALL_SPREAD)"
+    },
+    {
+      "id": "cycle_1788272095387_risk",
+      "timestamp": "2026-09-01T14:15:03.499Z",
+      "cycle_id": "cycle_1788272095387",
+      "stage": "RISK_GATE_CHECK",
+      "detail": "Risk Engine Result: PASSED"
+    },
+    {
+      "id": "cycle_1788272095387_ai",
+      "timestamp": "2026-09-01T14:15:03.422Z",
+      "cycle_id": "cycle_1788272095387",
+      "stage": "AI_DECISION",
+      "detail": "AI generated proposal: BULL_CALL_SPREAD on NFLX with 72% confidence"
+    },
+    {
+      "id": "cycle_1788272095387_scan",
+      "timestamp": "2026-09-01T14:15:01.779Z",
+      "cycle_id": "cycle_1788272095387",
+      "stage": "OPPORTUNITY_DISCOVERED",
+      "detail": "Discovered top candidate NFLX (Score: 0.55, Direction: BULLISH)"
+    },
+    {
+      "id": "cycle_1788272095387_start",
+      "timestamp": "2026-09-01T14:14:55.387Z",
+      "cycle_id": "cycle_1788272095387",
+      "stage": "CYCLE_START",
+      "detail": "Autonomous cycle #8 initiated"
+    },
+    {
+      "id": "cycle_1788272035391_exec",
+      "timestamp": "2026-09-01T14:14:06.838Z",
+      "cycle_id": "cycle_1788272035391",
+      "stage": "ORDER_EXECUTION",
+      "detail": "Execution Result: FILLED -> Order submitted in paper execution mode (NFLX BULL_CALL_SPREAD)"
+    },
+    {
+      "id": "cycle_1788272035391_risk",
+      "timestamp": "2026-09-01T14:14:06.010Z",
+      "cycle_id": "cycle_1788272035391",
+      "stage": "RISK_GATE_CHECK",
+      "detail": "Risk Engine Result: PASSED"
+    },
+    {
+      "id": "cycle_1788272035391_ai",
+      "timestamp": "2026-09-01T14:14:05.921Z",
+      "cycle_id": "cycle_1788272035391",
+      "stage": "AI_DECISION",
+      "detail": "AI generated proposal: BULL_CALL_SPREAD on NFLX with 72% confidence"
+    },
+    {
+      "id": "cycle_1788272035391_scan",
+      "timestamp": "2026-09-01T14:14:04.260Z",
+      "cycle_id": "cycle_1788272035391",
+      "stage": "OPPORTUNITY_DISCOVERED",
+      "detail": "Discovered top candidate NFLX (Score: 0.53, Direction: BULLISH)"
+    },
+    {
+      "id": "cycle_1788272035391_start",
+      "timestamp": "2026-09-01T14:13:55.391Z",
+      "cycle_id": "cycle_1788272035391",
+      "stage": "CYCLE_START",
+      "detail": "Autonomous cycle #7 initiated"
+    },
+    {
+      "id": "cycle_1788271975386_exec",
+      "timestamp": "2026-09-01T14:13:06.088Z",
+      "cycle_id": "cycle_1788271975386",
+      "stage": "ORDER_EXECUTION",
+      "detail": "Execution Result: FILLED -> Order submitted in paper execution mode (NFLX BULL_CALL_SPREAD)"
+    },
+    {
+      "id": "cycle_1788271975386_risk",
+      "timestamp": "2026-09-01T14:13:05.087Z",
+      "cycle_id": "cycle_1788271975386",
+      "stage": "RISK_GATE_CHECK",
+      "detail": "Risk Engine Result: PASSED"
+    },
+    {
+      "id": "cycle_1788271975386_ai",
+      "timestamp": "2026-09-01T14:13:05.002Z",
+      "cycle_id": "cycle_1788271975386",
+      "stage": "AI_DECISION",
+      "detail": "AI generated proposal: BULL_CALL_SPREAD on NFLX with 72% confidence"
+    },
+    {
+      "id": "cycle_1788271975386_scan",
+      "timestamp": "2026-09-01T14:13:02.717Z",
+      "cycle_id": "cycle_1788271975386",
+      "stage": "OPPORTUNITY_DISCOVERED",
+      "detail": "Discovered top candidate NFLX (Score: 0.52, Direction: BULLISH)"
+    },
+    {
+      "id": "cycle_1788271975386_start",
+      "timestamp": "2026-09-01T14:12:55.386Z",
+      "cycle_id": "cycle_1788271975386",
+      "stage": "CYCLE_START",
+      "detail": "Autonomous cycle #6 initiated"
+    },
+    {
+      "id": "cycle_1788271915368_exec",
+      "timestamp": "2026-09-01T14:12:03.505Z",
+      "cycle_id": "cycle_1788271915368",
+      "stage": "ORDER_EXECUTION",
+      "detail": "Execution Result: FILLED -> Order submitted in paper execution mode (NFLX BULL_CALL_SPREAD)"
+    },
+    {
+      "id": "cycle_1788271915368_risk",
+      "timestamp": "2026-09-01T14:12:02.581Z",
+      "cycle_id": "cycle_1788271915368",
+      "stage": "RISK_GATE_CHECK",
+      "detail": "Risk Engine Result: PASSED"
+    },
+    {
+      "id": "cycle_1788271915368_ai",
+      "timestamp": "2026-09-01T14:12:02.497Z",
+      "cycle_id": "cycle_1788271915368",
+      "stage": "AI_DECISION",
+      "detail": "AI generated proposal: BULL_CALL_SPREAD on NFLX with 72% confidence"
+    },
+    {
+      "id": "cycle_1788271915368_scan",
+      "timestamp": "2026-09-01T14:12:01.569Z",
+      "cycle_id": "cycle_1788271915368",
+      "stage": "OPPORTUNITY_DISCOVERED",
+      "detail": "Discovered top candidate NFLX (Score: 0.52, Direction: BULLISH)"
+    },
+    {
+      "id": "cycle_1788271915368_start",
+      "timestamp": "2026-09-01T14:11:55.368Z",
+      "cycle_id": "cycle_1788271915368",
+      "stage": "CYCLE_START",
+      "detail": "Autonomous cycle #5 initiated"
+    },
+    {
+      "id": "cycle_1788271855368_exec",
+      "timestamp": "2026-09-01T14:11:06.369Z",
+      "cycle_id": "cycle_1788271855368",
+      "stage": "ORDER_EXECUTION",
+      "detail": "Execution Result: FILLED -> Order submitted in paper execution mode (BAC BULL_CALL_SPREAD)"
+    },
+    {
+      "id": "cycle_1788271855368_risk",
+      "timestamp": "2026-09-01T14:11:05.513Z",
+      "cycle_id": "cycle_1788271855368",
+      "stage": "RISK_GATE_CHECK",
+      "detail": "Risk Engine Result: PASSED"
+    },
+    {
+      "id": "cycle_1788271855368_ai",
+      "timestamp": "2026-09-01T14:11:05.439Z",
+      "cycle_id": "cycle_1788271855368",
+      "stage": "AI_DECISION",
+      "detail": "AI generated proposal: BULL_CALL_SPREAD on BAC with 72% confidence"
+    },
+    {
+      "id": "cycle_1788271855368_scan",
+      "timestamp": "2026-09-01T14:11:03.302Z",
+      "cycle_id": "cycle_1788271855368",
+      "stage": "OPPORTUNITY_DISCOVERED",
+      "detail": "Discovered top candidate BAC (Score: 0.51, Direction: BULLISH)"
+    },
+    {
+      "id": "cycle_1788271855368_start",
+      "timestamp": "2026-09-01T14:10:55.368Z",
+      "cycle_id": "cycle_1788271855368",
+      "stage": "CYCLE_START",
+      "detail": "Autonomous cycle #4 initiated"
+    },
+    {
+      "id": "cycle_1788271795349_exec",
+      "timestamp": "2026-09-01T14:10:04.000Z",
+      "cycle_id": "cycle_1788271795349",
+      "stage": "ORDER_EXECUTION",
+      "detail": "Execution Result: FILLED -> Order submitted in paper execution mode (NFLX BULL_CALL_SPREAD)"
+    },
+    {
+      "id": "cycle_1788271795349_risk",
+      "timestamp": "2026-09-01T14:10:03.161Z",
+      "cycle_id": "cycle_1788271795349",
+      "stage": "RISK_GATE_CHECK",
+      "detail": "Risk Engine Result: PASSED"
+    },
+    {
+      "id": "cycle_1788271795349_ai",
+      "timestamp": "2026-09-01T14:10:03.074Z",
+      "cycle_id": "cycle_1788271795349",
+      "stage": "AI_DECISION",
+      "detail": "AI generated proposal: BULL_CALL_SPREAD on NFLX with 72% confidence"
+    },
+    {
+      "id": "cycle_1788271795349_scan",
+      "timestamp": "2026-09-01T14:10:01.452Z",
+      "cycle_id": "cycle_1788271795349",
+      "stage": "OPPORTUNITY_DISCOVERED",
+      "detail": "Discovered top candidate NFLX (Score: 0.52, Direction: BULLISH)"
+    },
+    {
+      "id": "cycle_1788271795349_start",
+      "timestamp": "2026-09-01T14:09:55.349Z",
+      "cycle_id": "cycle_1788271795349",
+      "stage": "CYCLE_START",
+      "detail": "Autonomous cycle #3 initiated"
+    },
+    {
+      "id": "cycle_1788271735333_exec",
+      "timestamp": "2026-09-01T14:09:02.790Z",
+      "cycle_id": "cycle_1788271735333",
+      "stage": "ORDER_EXECUTION",
+      "detail": "Execution Result: FILLED -> Order submitted in paper execution mode (NFLX BULL_CALL_SPREAD)"
+    },
+    {
+      "id": "cycle_1788271732115_exec",
+      "timestamp": "2026-09-01T14:09:02.035Z",
+      "cycle_id": "cycle_1788271732115",
+      "stage": "ORDER_EXECUTION",
+      "detail": "Execution Result: FILLED -> Order submitted in paper execution mode (NFLX BULL_CALL_SPREAD)"
+    },
+    {
+      "id": "cycle_1788271735333_risk",
+      "timestamp": "2026-09-01T14:09:01.974Z",
+      "cycle_id": "cycle_1788271735333",
+      "stage": "RISK_GATE_CHECK",
+      "detail": "Risk Engine Result: PASSED"
+    },
+    {
+      "id": "cycle_1788271735333_ai",
+      "timestamp": "2026-09-01T14:09:01.867Z",
+      "cycle_id": "cycle_1788271735333",
+      "stage": "AI_DECISION",
+      "detail": "AI generated proposal: BULL_CALL_SPREAD on NFLX with 72% confidence"
+    },
+    {
+      "id": "cycle_1788271735333_scan",
+      "timestamp": "2026-09-01T14:09:01.448Z",
+      "cycle_id": "cycle_1788271735333",
+      "stage": "OPPORTUNITY_DISCOVERED",
+      "detail": "Discovered top candidate NFLX (Score: 0.51, Direction: BULLISH)"
+    },
+    {
+      "id": "cycle_1788271732115_risk",
+      "timestamp": "2026-09-01T14:09:01.105Z",
+      "cycle_id": "cycle_1788271732115",
+      "stage": "RISK_GATE_CHECK",
+      "detail": "Risk Engine Result: PASSED"
+    },
+    {
+      "id": "cycle_1788271732115_ai",
+      "timestamp": "2026-09-01T14:09:01.024Z",
+      "cycle_id": "cycle_1788271732115",
+      "stage": "AI_DECISION",
+      "detail": "AI generated proposal: BULL_CALL_SPREAD on NFLX with 72% confidence"
+    },
+    {
+      "id": "cycle_1788271732115_scan",
+      "timestamp": "2026-09-01T14:08:58.680Z",
+      "cycle_id": "cycle_1788271732115",
+      "stage": "OPPORTUNITY_DISCOVERED",
+      "detail": "Discovered top candidate NFLX (Score: 0.51, Direction: BULLISH)"
+    },
+    {
+      "id": "cycle_1788271735333_start",
+      "timestamp": "2026-09-01T14:08:55.333Z",
+      "cycle_id": "cycle_1788271735333",
+      "stage": "CYCLE_START",
+      "detail": "Autonomous cycle #2 initiated"
+    },
+    {
+      "id": "cycle_1788271732115_start",
+      "timestamp": "2026-09-01T14:08:52.115Z",
+      "cycle_id": "cycle_1788271732115",
+      "stage": "CYCLE_START",
+      "detail": "Autonomous cycle #1 initiated"
+    },
+    {
+      "id": "cycle_1788270711509_start",
+      "timestamp": "2026-09-01T13:51:51.509Z",
+      "cycle_id": "cycle_1788270711509",
+      "stage": "CYCLE_START",
+      "detail": "Autonomous cycle #1 initiated"
+    },
     {
       "id": "cycle_1788195379232_exec",
       "timestamp": "2026-08-31T16:56:29.446Z",
